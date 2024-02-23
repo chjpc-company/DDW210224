@@ -1,0 +1,143 @@
+<!--
+    ETIQUETA DE APERTURA
+    ! -> CONDICIONAL (SI o NO).
+        !-> SI
+        ¡-> NO
+    DOCTYPE -> TIPO DE DOCUMENTO.
+    html -> HTML5.
+-->
+<!DOCTYPE html>
+
+<!--
+    DOCUMENTO
+    html -> TIPO DE DOCUMENTO.
+    lang -> TIPO DE LENGUAJE.
+        es -> ESPAÑOL
+        en -> INGLES
+        fr -> FRANCES
+-->
+<html lang="es"></html>
+
+<!--
+    ETIQUETA DE CABECERA NO VISIBLE
+    head -> SOLO LOS NAVEGADORES LA PUEDEN LEER.
+-->
+<head></head>
+
+<!--
+    ETIQUETA DE TITULO
+    title -> SIRVE PARA DARLE UN TITULO A NUESTRA APP O WEB EN EL NAVEGADOR
+-->
+<title></title>
+
+<!--
+    ETIQUETA DE METADATOS
+    head -> SCREEN (ANCHO Y ALTO), LECTURA DE LA URL, NOMBRE DE LA EMPRESA, SLOGAN DE LA EMPRESA,
+            LOGO DE LA EMPRESA, DESCRIPCION DE LA EMPRESA, 
+-->
+<meta>
+
+<!--
+    ETIQUETA DE LLAMADO
+    link -> SIRVE PARA LLAMAR DOCUMENTOS CSS Y EL FAVICON.
+-->
+<link>
+
+<!--
+    ETIQUETA DE ESTILOS
+    style -> PODEMOS INGRESAR CODIGO CSS DENTRO DE UN HTML.
+-->
+<style></style>
+
+<!--
+    ETIQUETA DE JAVASCRIPT
+    script -> PODEMOS INGRESAR CODIGO JAVASCRIPT DENTRO DE UN HTML.
+-->
+<script></script>
+
+<!--
+    ETIQUETA DE CUERPO DE LA PAGINA O APP
+    body -> ETIQUETA PRINCIPAL DEL CUERPO DE LA APP O WEB.
+-->
+<body></body>
+
+<!--
+    ETIQUETA DE CABECERA VISIBLE
+    header -> CABECERA DE LA WEB VISIBLE PARA EL USUARIO.
+-->
+<header></header>
+
+<!--
+    ETIQUETA DE CUERPO VISIBLE
+    section -> CUERPO DE LA WEB VISIBLE PARA EL USUARIO.
+-->
+<section></section>
+
+<!--
+    ETIQUETA DE PIE DE PAGINA
+    footer -> PARTE FINAL VISIBLE PARA EL USUARIO.
+-->
+<footer></footer>
+
+<!--
+    ETIQUETA PARA NAVEGACION
+    nav -> SIRVE PARA LOS MENU DE NAVEGACION
+-->
+<nav></nav>
+
+<!--
+    LISTAS DE NAVEGACION
+    ul -> LISTA DESORDENADA
+    ol -> LISTA ORDENADA Y ENUMERADA
+    li -> ORDENA LOS ENLACES
+-->
+<ul></ul> <ol></ol> <li></li>
+
+<!--
+    ETIQUETA DE LLAMADO PARA OTRO DOCUMENTOS
+    a -> DOCUMENTOS HTML
+-->
+<a href=""></a>
+
+<!--
+    ETIQUETA DE GRUPOS
+    main -> SIRVE PARA AGRUPAR SECCIONES, CABECERAS Y PIE DE PAGINAS.
+-->
+<main></main>
+
+<!--
+    ETIQUETA MULTIPLE
+    div -> SIRVE PARA CREAR BLOQUES/GRUPOS/SECCIONES.
+-->
+<div></div>
+
+<!--
+    ETIQUETA DE PUBLICIDAD
+    article -> PUBLICIDAD EXTERNA.
+    article -> SIRVE PARA CREAR ARTICULOS.
+-->
+<article></article>
+
+<!--
+    ETIQUETA DE PANELES
+    aside -> EL NAVEGADOR LO DETECTA PARA SABER QUE DEBE DE ESTAR A LOS COSTADOS(IZQUIERDA O DERECHA).
+-->
+<aside></aside>
+
+<!--
+    ETIQUETA DE TEXTOS
+    p -> SIRVE PARA INGRESAR TEXTO O PARRAFOS
+-->
+<p></p>
+
+<!--
+    ETIQUETA PARA TITULOS O SUBTITULOS
+    h# -> h1, h2, h3, h4, h5 y h6
+-->
+<h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>
+
+<!--
+    ETIQUETA PARA TEXTOS IMPORTANTES
+    strong -> SIRVE PARA CITAS O TEXTOS IMPORTANTES (ADVERTENCIA).
+-->
+<strong></strong>
