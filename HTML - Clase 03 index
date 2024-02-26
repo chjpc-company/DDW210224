@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+  <meta />
+  <title>CHRISTIAN PUYEN</title>
+  <link />
+  <link rel="stylesheet" href="icons/css/all.min.css">
+  <style>
+    body{background: #fff;}
+  </style>
+  <script>
+    document.write('Hola Mundo02');
+    console.log('Hola Mundo03');
+  </script>
+</head>
+<body>
+  <main>
+    <header></header>
+    <section>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <footer></footer>
+
+    <div>
+        <nav></nav>
+        <ul></ul>
+        <ol></ol>
+        <li></li>
+        <a href="index.html">Inicio</a>
+        <a href="alumnos.html">Alumnos</a>
+        <a href="compañia.html">Compañia</a>
+    </div>
+
+    <aside>
+        <article></article>
+    </aside>
+
+    <p>HOLA ME LLAMO CHRISTIAN</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">1. Inicio</a></li>
+            <li><a href="alumnos.html">3. Alumnos</a></li>
+            <li><a href="compañia.html">2. Compañia</a></li>
+        </ul>
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="alumnos.html">Alumnos</a></li>
+            <li><a href="compañia.html">Compañia</a></li>
+        </ol>
+    </nav>
+
+    <h1>HOLA ME LLAMO CHRISTIAN</h1>
+    <h2>HOLA ME LLAMO CHRISTIAN</h2>
+    <h3>HOLA ME LLAMO CHRISTIAN</h3>
+    <h4>HOLA ME LLAMO CHRISTIAN</h4>
+    <h5>HOLA ME LLAMO CHRISTIAN</h5>
+    <h6>HOLA ME LLAMO CHRISTIAN</h6>
+
+    <strong>ADVERTENCIA</strong>
+    <strong>
+      <p>OFERTA!</p>
+      <p>Casa de 1200mtrs2 a $20000</p>
+    </strong>
+    
+    <small>Juntos por la calidad</small>
+    <p><small>Copyright &copy; 2024</small></p>
+
+    <b><small>Juntos por la calidad 02</small></b>
+    <b><p><small>Copyright &copy; 2024</small></p></b>
+
+    <i class="fa fa-user"></i>
+    <span class="fa fa-user-circle"></span><br>
+
+    <small>Juntos por la calidad 03</small><br>
+    <small>Copyright &copy; 2024</small>
+
+    <table>
+      <thead>
+        <tr>
+          <th>NOMBRES</th>
+          <th>APELLIDOS</th>
+          <th>CELULAR</th>
+          <th>DEUDA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CHRISTIAN JOSE</td>
+          <td>PUYEN CASTILLO</td>
+          <td>992290137</td>
+          <td>S/.2000.00</td>
+        </tr>
+        <tr>
+          <td>RAFAEL JUNIOR</td>
+          <td>FARFAN HINOSTROZA</td>
+          <td>999999999</td>
+          <td>S/.57.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>TOTAL:</td>
+          <td>S/.2057.00</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <form>
+      <label>NOMBRES:</label>
+      <input type="text">
+      <label>APELLIDOS:</label>
+      <input type="text">
+      <label>CELULAR:</label>
+      <input type="text">
+      <label>DEUDA:</label>
+      <input type="text">
+      <label>Descripcion:</label>
+      <textarea></textarea>
+
+      <select>
+        <option>Seleccionar</option>
+        <option>Hombre</option>
+        <option>Mujer</option>
+        <option>Otros</option>
+      </select>
+
+      captcha
+      Copie el mismo numero del lado derecho
+      <input type="text">
+      K8i78F
+
+      <button>GUARDAR</button>
+      <button>RESETEAR</button>
+      <input type="submit" value="GUARDAR">
+      <input type="submit" value="RESETEAR">
+
+    </form>
+
+  </main>
+</body>
