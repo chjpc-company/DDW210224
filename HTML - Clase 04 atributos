@@ -1,0 +1,57 @@
+<!-- ATRIBUTOS PRINCIPALES DE LAS ETIQUETAS -->
+
+<!--
+    DOCTYPE -> ETIQUETA.
+    html -> ATRIBUTO: html5
+-->
+<!DOCTYPE html>
+
+<!--
+    html -> ETIQUETA.
+    lang -> ATRIBUTO(Idioma):
+            - es -> Español.
+            - en -> English.
+            - fr -> Frances.
+-->
+<html lang="es"></html>
+
+<!--
+    TIPO DE CARACTERES:
+    * <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+        - http-equiv="Content-Type" -> TIPO DE CONTENIDO EN EL NAVEGADOR.
+        - content="text/html" -> TIPO DE DOCUMENTO Y FORMATO.
+        - charset="utf-8" -> CARACTERES ESPECIALES (ES).
+        https://www.youtube.com/
+
+    RESPONSIVE DESIGN:
+    * <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        - name="viewport" -> ANCHO Y ALTO DE LA PANTALLA.
+        - content="
+            width=device-width, -> EL ANCHO DE LA PANTALLA.
+            user-scalable=no, -> SIN DEFORMACION.
+            initial-scale=1 -> LA WEB SEA ADAPTABLE.
+
+    DESCRIPCION O PALABRAS CLAVES:
+    * <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA,TIENDA ONLINE,ROPA,NIKE,ADIDAS">
+        - name="description" -> NOMBRE DEL METADATO.
+        - content="SEO / PALABRAS CLAVES" -> MOTORES DE BUSQUEDA.
+    
+    AUTOR DEL CONTENIDO WEB:
+    * <meta name="author" content="NOMBRE DEL AUTOR">
+        - name="author" -> NOMBRE DEL METADATO.
+        - content="NOMBRE DEL AUTOR" -> AUTOR DEL CONTENIDO.
+
+    META DEL ESLOGAN:
+    * <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    * <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+        - property="og:title" -> TITULO DEL PROPIETARIO.
+        - content="NOMBRE DE LA EMPRESA" -> NOMBRE DE LA EMPRESA ACTUAL.
+        - property="og:description" -> TITULO DE LA DESCRIPCION.
+        - content="SEO" -> MOTORES DE BUSQUEDA
+-->
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+<meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+<meta name="author" content="NOMBRE DEL AUTOR">
+<meta property="og:title" content="NOMBRE DE LA EMPRESA">
+<meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
