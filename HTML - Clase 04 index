@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+  <meta />
+  <title>CHRISTIAN PUYEN</title>
+  <link />
+  <link rel="stylesheet" href="icons/css/all.min.css">
+  <style>
+    body{background: #fff;}
+  </style>
+  <script>
+    document.write('Hola Mundo02');
+    console.log('Hola Mundo03');
+  </script>
+</head>
+<body>
+
+  <!-- EJEMPLOS DE ETIQUETAS -->
+
+  <main>
+    <header></header>
+    <section>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <footer></footer>
+
+    <div>
+        <nav></nav>
+        <ul></ul>
+        <ol></ol>
+        <li></li>
+        <a href="index.html">Inicio</a>
+        <a href="alumnos.html">Alumnos</a>
+        <a href="compañia.html">Compañia</a>
+    </div>
+
+    <aside>
+        <article></article>
+    </aside>
+
+    <p>HOLA ME LLAMO CHRISTIAN</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">1. Inicio</a></li>
+            <li><a href="alumnos.html">3. Alumnos</a></li>
+            <li><a href="compañia.html">2. Compañia</a></li>
+        </ul>
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="alumnos.html">Alumnos</a></li>
+            <li><a href="compañia.html">Compañia</a></li>
+        </ol>
+    </nav>
+
+    <h1>HOLA ME LLAMO CHRISTIAN</h1>
+    <h2>HOLA ME LLAMO CHRISTIAN</h2>
+    <h3>HOLA ME LLAMO CHRISTIAN</h3>
+    <h4>HOLA ME LLAMO CHRISTIAN</h4>
+    <h5>HOLA ME LLAMO CHRISTIAN</h5>
+    <h6>HOLA ME LLAMO CHRISTIAN</h6>
+
+    <strong>ADVERTENCIA</strong>
+    <strong>
+      <p>OFERTA!</p>
+      <p>Casa de 1200mtrs2 a $20000</p>
+    </strong>
+    
+    <small>Juntos por la calidad</small>
+    <p><small>Copyright &copy; 2024</small></p>
+
+    <b><small>Juntos por la calidad 02</small></b>
+    <b><p><small>Copyright &copy; 2024</small></p></b>
+
+    <i class="fa fa-user"></i>
+    <span class="fa fa-user-circle"></span><br>
+
+    <small>Juntos por la calidad 03</small><br>
+    <small>Copyright &copy; 2024</small>
+
+    <table>
+      <thead>
+        <tr>
+          <th>NOMBRES</th>
+          <th>APELLIDOS</th>
+          <th>CELULAR</th>
+          <th>DEUDA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CHRISTIAN JOSE</td>
+          <td>PUYEN CASTILLO</td>
+          <td>992290137</td>
+          <td>S/.2000.00</td>
+        </tr>
+        <tr>
+          <td>RAFAEL JUNIOR</td>
+          <td>FARFAN HINOSTROZA</td>
+          <td>999999999</td>
+          <td>S/.57.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>TOTAL:</td>
+          <td>S/.2057.00</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <form>
+      <label>NOMBRES:</label>
+      <input type="text">
+      <label>APELLIDOS:</label>
+      <input type="text">
+      <label>CELULAR:</label>
+      <input type="text">
+      <label>DEUDA:</label>
+      <input type="text">
+      <label>Descripcion:</label>
+      <textarea></textarea>
+
+      <select>
+        <option>Seleccionar</option>
+        <option>Hombre</option>
+        <option>Mujer</option>
+        <option>Otros</option>
+      </select>
+
+      captcha
+      Copie el mismo numero del lado derecho
+      <input type="text">
+      K8i78F
+
+      <button>GUARDAR</button>
+      <button>RESETEAR</button>
+      <input type="submit" value="GUARDAR">
+      <input type="submit" value="RESETEAR">
+
+    </form>
+
+    <img src="Logo-00.png" alt="">
+
+    <video src="video_example.mp4"></video>
+
+    <audio src="spot_publicitario.mp3" controls></audio>
+
+    <p>NÚMERO</p>
+    <p>N&uacute;mero</p>
+    <p>B&aacute;sico</p>
+
+    <p>Muñani</p>
+    <p>Mi&ntilde;ope</p>
+
+    <b><small>chjPC Company &copy; Todos los derechos reservados 2024</small></b>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto in ut, expedita itaque sed cupiditate unde suscipit rerum autem! Neque beatae laborum, ut rerum exercitationem dolorem vitae esse eius! Tenetur?
+    Ab ipsa, ad nulla voluptas velit incidunt quae, aperiam porro exercitationem, magnam odio assumenda et ipsum eligendi quisquam! Accusantium, modi necessitatibus deserunt aperiam optio dignissimos quos quo nihil molestiae tempore.
+    Ea magnam similique repudiandae? Earum laboriosam ipsa accusamus aperiam provident ea, cupiditate distinctio commodi ipsam laborum tempora numquam architecto exercitationem placeat. Nihil quis harum ipsam, atque totam accusamus hic iste!
+    Totam, cupiditate. Vitae consequuntur, eos suscipit ullam fugiat placeat voluptas quia rerum quaerat, nisi praesentium aliquid? Possimus fugit tempore, velit aliquid itaque quaerat pariatur, recusandae incidunt facilis unde cumque est!
+    Officia, quam minima quisquam voluptate est, ratione sequi dicta adipisci officiis facilis odit nesciunt sunt. Nulla aspernatur dolor mollitia nostrum, in accusantium expedita autem quos id, aliquam quasi praesentium quibusdam?</p>
+  </main>
+</body>
+
+<!-- EJEMPLOS DE ATRIBUTOS -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / CLEVER,HYUNDAI,MAZDA,MAZA3,COROLLA,VENTA,DE,AUTOS,NUEVOS">
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+  </head>
+</html>
