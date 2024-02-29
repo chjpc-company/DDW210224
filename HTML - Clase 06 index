@@ -1,0 +1,76 @@
+<!-- EJEMPLOS DE ATRIBUTOS -->
+<!DOCTYPE html> <!-- ETIQUETA 01 -->
+<html lang="es-ES"> <!-- ETIQUETA 02 -->
+  <head> <!-- ETIQUETA 03 -->
+    
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / CLEVER,HYUNDAI,MAZDA,MAZA3,COROLLA,VENTA,DE,AUTOS,NUEVOS">
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+    <title>Tienda Online Christian - Inicio</title>
+
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/png">
+    <link rel="stylesheet" href="icons/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script type="text/javascript" src="js/program.js"></script>
+  </head> <!-- FIN ETIQUETA 03 -->
+  <body> <!-- ETIQUETA 04 -->
+    <main>
+
+      <div class="caja-roja"></div>
+      <div class="caja-negra"></div>
+      <div id="div_00"></div>
+      <div id="div_01"></div>
+      <p title="Aqui viene un nombre">Christian</p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="compañia.html">Compañia</a></li>
+          <li><a href="alumnos.html">Alumnos</a></li>
+        </ul>
+      </nav>
+
+      <img src="img/callCenterMujer.png" alt="Call Center">
+      <video src="video_example.mp4" muted loop controls></video>
+      <audio src="spot_publicitario.mp3" controls></audio>
+
+      <!-- FORMULARIO -->
+      <form action="" method="GET" autocomplete="OFF">
+        <label for="names">Nombres</label>
+        <input id="names" type="text" placeholder="Nombres y Apellidos">
+        <input type="number">
+        <label for="email">Correo Electr&oacute;nico</label>
+        <input id="email" type="email" placeholder="Correo Electronico">
+        <input type="password" required>
+        <input type="file">
+        <input type="search">
+        <input type="hidden" name="date-brithday">
+
+        <input id="yes" type="checkbox">
+        <label for="yes">Si</label>
+        <input id="no" type="checkbox">
+        <label for="no">No</label>
+        <input type="radio">
+
+        <select name="" id="">
+          <option>Selecciona</option>
+          <option value="Hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>
+          <option value="Otros">Otros</option>
+        </select>
+
+        <button type="button">Botón</button>
+        <button type="submit">Enviar</button>
+        <input type="submit" value="Guardar">
+        <button type="reset">Resetear Campos</button>
+      </form>
+
+    </main>
+  </body> <!-- FIN ETIQUETA 04 -->
+</html> <!-- FIN ETIQUETA 02 -->
