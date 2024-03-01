@@ -1,0 +1,143 @@
+<!--
+    EJEMPLOS DE LA CLASE 05 - 01 YA HECHOS.
+-->
+<!--
+    COMIENZO DE LOS EJEMPLOS, CLASE 06 EN ADELANTE.
+-->
+<!DOCTYPE html> <!-- ETIQUETA 01 -->
+<html lang="es-ES"> <!-- ETIQUETA 02 -->
+<head> <!-- ETIQUETA 03 -->
+    
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- META DEL RESPONSIVE DESIGN -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!-- META DE DESCRIPCION -->
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+    <!-- META DEL AUTOR -->
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <!-- META DEL ESLOGAN -->
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+    <!-- TITULO DEL NAVEGADOR -->
+    <title>Christian - Inicio</title>
+
+    <!-- ENLACE DEL FAVICON -->
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/png">
+    <!-- ENLACE DEL CSS -->
+    <link rel="stylesheet" href="#">
+    <!-- ENLACE DE LOS ICONOS -->
+    <link rel="stylesheet" href="icons/css/all.min.css">
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="#"></script>
+
+</head> <!-- FIN ETIQUETA 03 -->
+<body> <!-- ETIQUETA 04 -->
+    
+    <main>
+        <header>
+            <div> <!-- CAJA 01 -->
+                <div>
+                    <div> <!-- BLOQUE UP -->
+                        <div> <!-- LOGO -->
+                            <img src="Logo-001.png" alt="Logo Empresa">
+                        </div>
+                        <div> <!-- REFERENCIA -->
+                            <div> <!-- REF 01 -->
+                                <i class="fa-solid fa-at"></i>
+                                <div>
+                                    <h4>Email:</h4>
+                                    <p>chjpc.company@gmail.com</p>
+                                </div>
+                            </div>
+                            <div> <!-- REF 02 -->
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                <div>
+                                    <h4>Contacto:</h4>
+                                    <p>+51 999 999 999</p>
+                                </div>
+                            </div>
+                            <div> <!-- REF 03 -->
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h4>Direcci&oacute;n:</h4>
+                                    <p>Urb. Santa Victoria, Los Tumbos 149, Chiclayo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div> <!-- BOTON -->
+                            <button type="button">Cont&aacute;ctanos Ya!</button>
+                        </div>
+                    </div> <!-- FIN BLOQUE UP -->
+                    <div> <!-- BLOQUE DOWN -->
+                        <button> <!-- BOTON MENU -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <nav> <!-- MENU -->
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Empresa</a></li>
+                                <li><a href="#">Servicios</a></li>
+                                <li><a href="#">Contacto</a></li>
+                                <li><a href="#">Proyectos</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </nav>
+                        <form action="" method="post" autocomplete="on">
+                            <label for="search">Buscar</label>
+                            <input id="search" name="search" type="text">
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div> <!-- FIN BLOQUE DOWN -->
+                </div>
+            </div> <!-- FIN CAJA 01 -->
+            <div> <!-- CAJA 02 -->
+                <div>
+                    <img src="img/backgroundFondo.jpg" alt="Imagen de Fondo">
+                    <div>
+                        <div>
+                            <h2>ESTUDIA 100% PRACTICO<br>Y R&Aacute;PIDO</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi molestiae corrupti beatae?</p>
+                            <button type="button">Ver cursos...</button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- FIN CAJA 02 -->
+            <div> <!-- CAJA 03 -->
+                <div>
+                    <div>
+                        <i class="fa-solid fa-person-dress"></i>
+                        <h3>Certificate como profesor</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officiis odio?</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-person"></i>
+                        <h3>Especialista en educaci&oacute;n</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officiis odio?</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Biblioteca virtual</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officiis odio?</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-certificate"></i>
+                        <h3>&Aacute;rea deportiva</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officiis odio?</p>
+                    </div>
+                </div>
+            </div> <!-- FIN CAJA 03 -->
+        </header>
+        <section></section>
+        <footer></footer>
+    </main>
+
+</body> <!-- FIN ETIQUETA 04 -->
+</html> <!-- FIN ETIQUETA 02 -->
