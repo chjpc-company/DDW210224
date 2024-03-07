@@ -1,0 +1,160 @@
+<!DOCTYPE html> <!-- ETIQUETA 01 -->
+<html lang="es-ES"> <!-- ETIQUETA 02 -->
+<head> <!-- ETIQUETA 03 -->
+    
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- META DEL RESPONSIVE DESIGN -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!-- META DE DESCRIPCION -->
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+    <!-- META DEL AUTOR -->
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <!-- META DEL ESLOGAN -->
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+    <!-- TITULO DEL NAVEGADOR -->
+    <title>Ejemplo HEADER</title>
+
+    <!-- ENLACE DEL FAVICON -->
+    <link rel="shortcut icon" href="#" type="image/png">
+    <!-- ENLACE DEL CSS -->
+    <link rel="stylesheet" href="#">
+    <!-- ENLACE DE LOS ICONOS -->
+    <link rel="stylesheet" href="icons/css/all.min.css">
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="#"></script>
+
+</head> <!-- FIN ETIQUETA 03 -->
+<body> <!-- ETIQUETA 04 -->
+    
+    <main>
+        <header>
+            <div>
+                <div>
+                    <div> <!-- CAJA CONTENEDOR -->
+                        <div>
+                            <div>
+                                <i class="fa-solid fa-rocket"></i>
+                                <p>Env&iacute;o express a partir de 24h</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                <p>Devoluciones hasta 14 d&iacute;as</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-headphones-simple"></i>
+                                <p>9/10 Opiniones Verificadas</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-credit-card"></i>
+                                <p>Financia hasta 18 meses</p>
+                            </div>
+                        </div>
+                        <section>
+                            <div>
+                                <a href="index.html">
+                                    <img src="img/logoEmpresa/casika.svg" alt="Logo Empresa">
+                                </a>
+                            </div>
+                            <div>
+                                <form action="" method="get">
+                                    <label for="search">Buscar</label>
+                                    <input type="text" id="search">
+                                    <button type="submit">Buscar</button>
+                                </form>
+                            </div>
+                            <div>
+                                <button type="button">
+                                    <i class="fa-solid fa-headset"></i>
+                                </button>
+                                <button type="button">
+                                    <i class="fa-regular fa-heart"></i>
+                                </button>
+                                <button type="button" title="Acceda a su cuenta de cliente">
+                                    <i class="fa-regular fa-user"></i>
+                                </button>
+                                <button type="button">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>0</span>
+                                </button>
+                            </div>
+                            <!-- CAJA MODALS -->
+                                <!-- MODAL CONTACTO -->
+                            <div>
+                                <div>
+                                    <div>
+                                        <i class="fa-solid fa-mobile"></i>
+                                        <div>
+                                            <a href="#"><p>Cel. 999 999 999</p></a>
+                                            <p>lun-vie: 8-14h & 15-17h</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <div>
+                                            <a href="#">
+                                                <p>WhatsApp</p>
+                                                <p>Empezar chat aqu&iacute;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa-regular fa-comments"></i>
+                                        <div>
+                                            <a href="#">
+                                                <p>Chat</p>
+                                                <p>Empezar chat aqu&iacute;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <div>
+                                            <a href="#"><p>FORMULARIO DE CONTACTO</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- MODAL DESEOS -->
+                            <div>
+                                <div>
+                                    <p>Si no encuentra su lista de deseos, por favor acceda a su cuenta.</p>
+                                    <button type="button">Iniciar Sesi&oacute;n</button>
+                                </div>
+                            </div>
+                                <!-- MODAL CUENTA -->
+                            <div>
+                                <div>
+                                    <form action="" method="post">
+                                        <label for="username">Usuario:</label>
+                                        <input type="text" id="username">
+                                        <label for="password">Contrase&ntilde;a</label>
+                                        <input type="text" id="password">
+                                        <button type="submit">Acceder</button>
+                                    </form>
+                                    <div>
+                                        <p>Olvid&oacute; su clave?<a href="#"> clic aqu&iacute;</a></p>
+                                        <p>No tienes una cuenta?<a href="#"> crear cuenta</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- MODAL COMPRAS -->
+                            <div>
+                                <div>
+                                    <p>Si no encuentra su lista de compras, por favor acceda a su cuenta.</p>
+                                    <button type="button">Iniciar Sesi&oacute;n</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
+
+</body> <!-- FIN ETIQUETA 04 -->
+</html> <!-- FIN ETIQUETA 02 -->
