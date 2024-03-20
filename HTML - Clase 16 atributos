@@ -1,0 +1,226 @@
+<!-- ATRIBUTOS PRINCIPALES DE LAS ETIQUETAS -->
+
+<!--
+    DOCTYPE -> ETIQUETA.
+    html -> ATRIBUTO: html5
+-->
+<!DOCTYPE html>
+
+<!--
+    html -> ETIQUETA.
+    lang -> ATRIBUTO(Idioma):
+            - es -> Español.
+            - en -> English.
+            - fr -> Frances.
+-->
+<html lang="es-ES"></html>
+
+<!--
+    TIPO DE CARACTERES:
+    * <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+        - http-equiv="Content-Type" -> TIPO DE CONTENIDO EN EL NAVEGADOR.
+        - content="text/html" -> TIPO DE DOCUMENTO Y FORMATO.
+        - charset="utf-8" -> CARACTERES ESPECIALES (ES).
+        https://www.youtube.com/
+
+    RESPONSIVE DESIGN:
+    * <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        - name="viewport" -> ANCHO Y ALTO DE LA PANTALLA.
+        - content="
+            width=device-width, -> EL ANCHO DE LA PANTALLA.
+            user-scalable=no, -> SIN DEFORMACION.
+            initial-scale=1 -> LA WEB SEA ADAPTABLE.
+
+    DESCRIPCION O PALABRAS CLAVES:
+    * <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA,TIENDA ONLINE,ROPA,NIKE,ADIDAS">
+        - name="description" -> NOMBRE DEL METADATO.
+        - content="SEO / PALABRAS CLAVES" -> MOTORES DE BUSQUEDA.
+    
+    AUTOR DEL CONTENIDO WEB:
+    * <meta name="author" content="NOMBRE DEL AUTOR">
+        - name="author" -> NOMBRE DEL METADATO.
+        - content="NOMBRE DEL AUTOR" -> AUTOR DEL CONTENIDO.
+
+    META DEL ESLOGAN:
+    * <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    * <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+        - property="og:title" -> TITULO DEL PROPIETARIO.
+        - content="NOMBRE DE LA EMPRESA" -> NOMBRE DE LA EMPRESA ACTUAL.
+        - property="og:description" -> TITULO DE LA DESCRIPCION.
+        - content="SEO" -> MOTORES DE BUSQUEDA
+-->
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+<meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+<meta name="author" content="NOMBRE DEL AUTOR">
+<meta property="og:title" content="NOMBRE DE LA EMPRESA">
+<meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+<!--
+    FAVICON:
+    * <link rel="shortcut icon" href="#" type="image/png">
+        - rel="shortcut icon" -> RELACION DEL ENLACE CON LA WEB.
+        - href="#" -> LLAMADO A IMAGEN EXTERNA.
+        - type="image/png" -> TIPO DE FORMATO.
+
+    CSS/ICONOS:
+    * <link rel="stylesheet" href="#">
+        - rel="stylesheet" -> RELACION DEL ENLACE CON LA WEB(HOJA DE ESTILOS).
+        - href="#" - > LLAMADO A DOCUMENTO EXTERNO CSS.
+-->
+<link rel="shortcut icon" href="#" type="image/png">
+<link rel="stylesheet" href="#">
+
+<!--
+    * <script type="text/javascript" src=""></script>
+        - type="text/javascript" -> TIPO DE DOCUMENTO.
+        - src="" -> ATRIBUTO DE BUSQUEDA JS (src=search -> buscar).
+-->
+<script type="text/javascript" src=""></script>
+
+<!--
+    ATRIBUTOS GLOBALES:
+        - class -> ATRIBUTO DE CLASE PARA EL LLAMADO EN CSS.
+        - id -> ATRIBUTO DE IDENTIFICACION UNICO PARA CSS O JS.
+        - title -> ATRIBUTO PARA TITULOS DE ETIQUETAS.
+-->
+<div class="clase01"></div>
+<div class="clase02"></div>
+<div id="idUnico01"></div>
+<div id="idUnico02"></div>
+<p title="Aqui viene un titulo">Christian</p>
+
+<!--
+    * <a href="#"></a>
+        - href="#" -> ATRIBUTO DE REDIRECCIONAMIENTO.
+-->
+<a href="#"></a>
+
+<!--
+    * <img src="#" alt="">
+        - src="#" -> RUTA DE LA IMAGEN A MOSTRAR (src=search -> buscar).
+        - alt="" -> NOMBRE ALTERNATIVO DE LA IMAGEN.
+-->
+<img src="#" alt="Nombre de la imagen">
+
+<!--
+    * <video src="#"></video>
+        - src="#" -> RUTA DEL VIDEO A MOSTRAR (src=search -> buscar).
+        - controls -> MUESTRA LOS CONTROLES DEL VIDEO.
+        - autoplay -> SE REPRODUCE AUTOMÁTICAMENTE.
+        - muted -> SIRVE PARA SILENCIAR EL VIDEO.
+        - loop -> AUTOREPRODUCIR EL VIDEO.
+-->
+<video src="#"></video>
+
+<!--
+    * <audio src="#"></audio>
+        - src="#" -> RUTA DEL AUDIO A MOSTRAR (src=search -> buscar).
+        - controls -> MUESTRA LOS CONTROLES DEL AUDIO.
+        - autoplay -> SE REPRODUCE AUTOMÁTICAMENTE.
+        - muted -> SIRVE PARA SILENCIAR EL AUDIO.
+        - loop -> AUTOREPRODUCIR EL AUDIO.
+-->
+<audio src="#"></audio>
+
+<!-- FORMULARIOS -->
+
+<!--
+    * <form action="" method=""></form>
+        - action="" -> SE INGRESA EL DOCUMENTO A PROCESAR LOS DATOS.
+        - method="" -> EL METODO DE ENVIO DE LOS DATOS.
+            GET -> LOS DATOS SON MOSTRADOS EN EL NAVEGADOR.
+            POST -> LOS DATOS SON ENVIADOS PERO NO MOSTRADOS.
+        - autocomplete="" -> PERMITE SI EL FORMULARIO SE AUTOCOMPLETA.
+            off -> AUTOCOMPLETADO APAGADO.
+            on -> AUTOCOMPLETADO ENCENDIDO.
+-->
+<form action="#" method="#" autocomplete="#"></form>
+
+<!--
+    * <input type="" placeholder="" name="" required>
+        - type="" -> TIPO DE DATO A INGRESAR EN EL CAMPO A LLENAR.
+            text -> CAMPO DE TIPO TEXTO(RECIBE CUALQUIER CARACTER: LETRAS, NUMEROS Y SIMBOLOS).
+            number -> CAMPO DE TIPO NÚMERO(RECIBE SOLO NÚMEROS).
+            email -> CAMPO DE TIPO CORREO ELECTRONICO(RECIBE LETRAS, ARROBA @ Y PUNTO .).
+            password -> CAMPO DE TIPO CONTRASEÑA(NO MUESTRA EL CONTENIDO ESCRITO).
+            file -> CAMPO PARA ENVIAR ARCHIVOS.
+            search -> CAMPO DE TIPO BUSQUEDA.
+            hidden -> CAMPO DE TIPO OCULTO.
+
+            checkbox -> CAMPO DE TIPO SELECCIONADOR(SIRVE PARA ACEPTAR O NO UNA OPCION).
+            radio -> CAMPO DE TIPO SELECCIONADOR(SIRVE PARA INDICAR UNA OPCION).
+        
+        - placeholder="" -> GENERA UN TEXTO DE INDICACION.
+        - required -> ESPECIFICA QUE EL CAMPO A LLENAR ES REQUERIDO.
+        - name="" -> AL IGUAL QUE EL ID ES UNICO Y PERMITE ENVIAR EL DATO ESCRITO A LA BASE DE DATOS.
+-->
+<input type="text" placeholder="Nombres y Apellidos">
+<input type="number">
+<input type="email" placeholder="Correo Electronico">
+<input type="password" required>
+<input type="file">
+<input type="search">
+<input type="hidden" name="date-brithday">
+
+<input type="checkbox">
+<input type="radio">
+
+<!--
+    * <select name="" id=""></select>
+        - name -> AL IGUAL QUE EL ID ES UNICO Y PERMITE ENVIAR EL DATO ESCRITO A LA BASE DE DATOS.
+    * <option value=""></option>
+        - value ->  LE DA UN VALOR A LA OPCION
+-->
+<select name="" id="">
+    <option>Selecciona</option>
+    <option value="Hombre">Hombre</option>
+    <option value="Mujer">Mujer</option>
+    <option value="Otros">Otros</option>
+</select>
+
+<!--
+    * <textarea name="" id="" cols="30" rows="10"></textarea>
+        - cols -> CANTIDAD DE COLUMNAS.
+        - rows -> CANTIDAD DE FILAS.
+-->
+<textarea name="" id="" cols="20" rows="10"></textarea>
+
+<!--
+    * <label for=""></label>
+        - for -> SIRVE PARA IDENTIFICAR EL CAMPO A LLENAR.
+-->
+<label for=""></label>
+
+<!--
+    * <button type=""></button>
+        - type="" -> TIPO DE ACCIÓN DEL BOTÓN.
+            button -> BOTÓN NORMAL.
+            submit -> BOTÓN PARA ENVIAR DATOS.
+            reset -> BOTÓN PARA RESETEAR LOS CAMPOS YA LLENADOS.
+    * <input type="submit" value="">
+        - value -> VALOR DEL CAMPO.
+-->
+<button type="button">Botón</button>
+<button type="submit">Enviar</button>
+<input type="submit" value="Guardar">
+<button type="reset"></button>
+
+<!--
+    AGREGAR UN ICONO
+    * <i class="fa fa-heart"></i>
+    * <span class="fa-brands fa-facebook"></span>
+-->
+<i class="#"></i>
+<span class="#"></span>
+
+<!--
+    <iframe></iframe>
+        src="" -> SIRVE PARA BUSCAR LA INFORMACIÓN DEL MAPA.
+        width="" -> DESTINA UN ANCHO DEL MAPA.
+        height="" -> DESTINA UN ALTO DEL MAPA.
+        style="" -> DISEÑO DIRECTO A LA ETIQUETA PRINCIPAL(iframe).
+        allowfullscreen -> OCUPA EL ANCHO Y ALTO TOTAL DEL IFRAME.
+        loading="lazy" -> HACE UN CARGADO RÁPIDO DEL MAPA.
+-->
+<iframe src="#" width="320" height="320" style="border:0;" allowfullscreen loading="lazy"></iframe>
