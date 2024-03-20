@@ -1,0 +1,511 @@
+<!DOCTYPE html> <!-- ETIQUETA 01 -->
+<html lang="es-ES"> <!-- ETIQUETA 02 -->
+<head> <!-- ETIQUETA 03 -->
+    
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- META DEL RESPONSIVE DESIGN -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!-- META DE DESCRIPCION -->
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+    <!-- META DEL AUTOR -->
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <!-- META DEL ESLOGAN -->
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+    <!-- TITULO DEL NAVEGADOR -->
+    <title>Ejemplo - Casika</title>
+
+    <!-- ENLACE DEL FAVICON -->
+    <link rel="shortcut icon" href="#" type="image/png">
+    <!-- ENLACE DEL CSS -->
+    <link rel="stylesheet" href="#">
+    <!-- ENLACE DE LOS ICONOS -->
+    <link rel="stylesheet" href="../icons/css/all.min.css">
+
+    <!-- JAVASCRIPT -->
+    
+
+</head> <!-- FIN ETIQUETA 03 -->
+<body> <!-- ETIQUETA 04 -->
+    
+    <main>
+
+        <header>
+            <div>
+                <div>
+                    <div> <!-- CAJA CONTENEDOR -->
+                        <div>
+                            <div>
+                                <i class="fa-solid fa-rocket"></i>
+                                <p>Env&iacute;o express a partir de 24h</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                <p>Devoluciones hasta 14 d&iacute;as</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-headphones-simple"></i>
+                                <p>9/10 Opiniones Verificadas</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-credit-card"></i>
+                                <p>Financia hasta 18 meses</p>
+                            </div>
+                        </div>
+                        <section>
+                            <div>
+                                <a href="../">
+                                    <img src="../img/logoEmpresa/casika.svg" alt="Logo Empresa">
+                                </a>
+                            </div>
+                            <div>
+                                <form action="" method="get">
+                                    <label for="search">Buscar</label>
+                                    <input type="text" id="search">
+                                    <button type="submit">Buscar</button>
+                                </form>
+                            </div>
+                            <div>
+                                <button type="button">
+                                    <i class="fa-solid fa-headset"></i>
+                                </button>
+                                <button type="button">
+                                    <i class="fa-regular fa-heart"></i>
+                                </button>
+                                <button type="button" title="Acceda a su cuenta de cliente">
+                                    <i class="fa-regular fa-user"></i>
+                                </button>
+                                <button type="button">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span>0</span>
+                                </button>
+                            </div>
+                            <!-- CAJA MODALS -->
+                                <!-- MODAL CONTACTO -->
+                            <div>
+                                <div>
+                                    <div>
+                                        <i class="fa-solid fa-mobile"></i>
+                                        <div>
+                                            <a href="#"><p>Cel. 999 999 999</p></a>
+                                            <p>lun-vie: 8-14h & 15-17h</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <div>
+                                            <a href="#">
+                                                <p>WhatsApp</p>
+                                                <p>Empezar chat aqu&iacute;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa-regular fa-comments"></i>
+                                        <div>
+                                            <a href="#">
+                                                <p>Chat</p>
+                                                <p>Empezar chat aqu&iacute;</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <div>
+                                            <a href="./"><p>FORMULARIO DE CONTACTO</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- MODAL DESEOS -->
+                            <div>
+                                <div>
+                                    <p>Si no encuentra su lista de deseos, por favor acceda a su cuenta.</p>
+                                    <button type="button">Iniciar Sesi&oacute;n</button>
+                                </div>
+                            </div>
+                                <!-- MODAL CUENTA -->
+                            <div>
+                                <div>
+                                    <form action="" method="post">
+                                        <label for="username">Usuario:</label>
+                                        <input type="text" id="username">
+                                        <label for="password">Contrase&ntilde;a</label>
+                                        <input type="text" id="password">
+                                        <button type="submit">Acceder</button>
+                                    </form>
+                                    <div>
+                                        <p>Olvid&oacute; su clave?<a href="#"> clic aqu&iacute;</a></p>
+                                        <p>No tienes una cuenta?<a href="#"> crear cuenta</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- MODAL COMPRAS -->
+                            <div>
+                                <div>
+                                    <p>Si no encuentra su lista de compras, por favor acceda a su cuenta.</p>
+                                    <button type="button">Iniciar Sesi&oacute;n</button>
+                                </div>
+                            </div>
+                        </section>
+                        <div>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="../Novedades/">
+                                            <p>NOVEDADES</p>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../Decoracion/">
+                                            <p>DECORACI&Oacute;N</p>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div></div>
+                                        </a>
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">Decoraci&oacute;n</a>
+                                                    <a href="#">Espejos</a>
+                                                    <a href="#">Plantas artificiales</a>
+                                                    <a href="#">Maceteros y Jarrones</a>
+                                                    <a href="#">Cestos y Almacenaje</a>
+                                                    <a href="#">Relojes decorativos</a>
+                                                    <a href="#">Velas y Aromas</a>
+                                                    <a href="#">Marcos de fotos</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">Accesorios de decoraci&oacute;n</a>
+                                                    <a href="#">Faroles y Porta velas</a>
+                                                    <a href="#">Figuras decorativas</a>
+                                                    <a href="#">Centros de mes y<br>Vaciabolcillos</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">Decoraci&oacute;n de pared</a>
+                                                    <a href="#">Cuadros decorativos</a>
+                                                    <a href="#">Espejos de pared</a>
+                                                    <a href="#">Relojes de pared</a>
+                                                    <a href="#">Paneles decorativos</a>
+                                                    <a href="#">Cabeceros</a>
+                                                </div>
+                                                <div>
+                                                    <a href="#">Textil hogar</a>
+                                                    <a href="#">Alfombras</a>
+                                                    <a href="#">Cojines</a>
+                                                    <a href="#">Mantas y Plaids</a>
+                                                    <a href="#">Felpudos</a>
+                                                </div>
+                                                <div>
+                                                    <img src="../img/navEnlaces/decoracion.jpg" alt="Seccion Decoracion">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p>MUEBLES</p>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div></div>
+                                        </a>
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <a href="#">Muebles</a>
+                                                    <a href="#">Consolas y Recibidores</a>
+                                                    <a href="#">Muebles TV y Aparadores</a>
+                                                    <a href="#">Mesas auxiliares</a>
+                                                    <a href="#">Estanter&iacute;as</a>
+                                                    <a href="#">Sillas, Sillones y Sof&aacute;s</a>
+                                                    <a href="#">Cajoneras, C&oacute;modas y Sinfoniers</a>
+                                                    <a href="#">Zapateros y Percheros</a>
+                                                    <a href="#">Puffs, Taburetes y Bancos</a>
+                                                    <a href="#">Mesitas de noche</a>
+                                                </div>
+                                                <div>
+                                                    <img src="../img/navEnlaces/muebles.jpg" alt="Seccion Muebles">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p>ILUMINACI&Oacute;N</p>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p>COCINA</p>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p>BA&Ntilde;O</p>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p>EXTERIOR</p>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p>KIDS</p>
+                                            <div></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <section>
+                            <div>
+                                <div>
+                                    <a href="../">
+                                        <span>Inicio</span>
+                                    </a>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                    <p>Contacto</p>
+                                </div>
+                                <div>
+                                    <p>CONTACTO</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div>
+                <div>
+                    <div>
+                        <form action="" method="post" autocomplete="off">
+                            <div>
+                                <h2>FORMULARIO DE CONTACTO</h2>
+                            </div>
+                            <div>
+                                <label for="nombres">Nombres</label>
+                                <input type="text" id="nombres" placeholder="Ej: Christian">
+                            </div>
+                            <div>
+                                <label for="apellidos">Apellidos</label>
+                                <input type="text" id="apellidos" placeholder="Ej: Puyen">
+                            </div>
+                            <div>
+                                <label for="asunto">Asunto</label>
+                                <select id="asunto">
+                                    <option>Seleccione una opci&oacute;n</option>
+                                    <option value="01">Servicio al cliente</option>
+                                    <option value="02">Webmaster</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="email">Correo Electr&oacute;nico</label>
+                                <input type="email" id="email" placeholder="su@email.com">
+                            </div>
+                            <div>
+                                <label for="adjuntar">Adjuntar</label>
+                                <input type="file" id="adjuntar">
+                                <span>opcional</span>
+                            </div>
+                            <div>
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.9657242384324!2d-79.84381132584349!3d-6.774026366242655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef26298242f9%3A0x124d190839a8e8b9!2sChjPC%20Company!5e0!3m2!1ses!2spe!4v1710895876274!5m2!1ses!2spe"
+                            width="100%"
+                            height="420"
+                            style="border:0;"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                        <div>
+                            <p>Otro mapa</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.1089911989825!2d-74.23293072883348!3d-13.155524535170144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d68fc1a38cb%3A0x22624091ad6343!2sOlva%20Curier!5e0!3m2!1ses!2spe!4v1710898761360!5m2!1ses!2spe" width="100%" height="420" style="border:0;" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section>
+                <div>
+                    <div>
+                        <div>
+                            <p>&Uacute;nete a nuestro newsletter</p>
+                            <p>Ent&eacute;rate antes que nadie de las novedades, productos exclusivos y promociones.</p>
+                        </div>
+                        <div>
+                            <form action="" method="get">
+                                <p><!-- AQUI LOS ALERTAS --></p>
+                                <input type="email" placeholder="Introduce tu dirección electrónica">
+                                <button type="submit">
+                                    <span>Enviar</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/logoEmpresa/casika_footer.svg" alt="Logo Footer">
+                                    </a>
+                                </div>
+                                <div>
+                                    <p>C/ Zapateros 17, 03680 Aspe - Alicante</p>
+                                    <a href="#"><span>correo@email.com</span></a>
+                                    <a href="#"><span>+51 999 999 999</span></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <p>Sobre Nosotros</p>
+                                    </div>
+                                    <span><!-- PARA LA LINEA --></span>
+                                    <div>
+                                        <a href="#"><span>Condiciones de compra</span></a>
+                                        <a href="#"><span>Qui&eacute;nes somos</span></a>
+                                        <a href="#"><span>Mapa del sitio web</span></a>
+                                    </div>
+                                    <div>
+                                        <a href="#">
+                                            <span><i class="fa-brands fa-facebook-f"></i></span>
+                                        </a>
+                                        <a href="#">
+                                            <span><i class="fa-brands fa-twitter"></i></span>
+                                        </a>
+                                        <a href="#">
+                                            <span><i class="fa-brands fa-instagram"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p>Enlaces</p>
+                                    </div>
+                                    <span><!-- PARA LA LINEA --></span>
+                                    <div>
+                                        <a href="#"><span>Ventajas de ser Casikero</span></a>
+                                        <a href="#"><span>Cont&aacute;ctanos</span></a>
+                                        <a href="#"><span>Blog</span></a>
+                                        <a href="#"><span>Decoraci&oacute;n Black Friday</span></a>
+                                        <a href="#"><span>Muebles Black Friday</span></a>
+                                        <a href="#"><span>Iluminaci&oacute;n Black Friday</span></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p>M&aacute;s Buscados</p>
+                                    </div>
+                                    <span><!-- PARA LA LINEA --></span>
+                                    <div>
+                                        <a href="#"><span>Decoraci&oacute;n</span></a>
+                                        <a href="#"><span>Mesas Auxiliares</span></a>
+                                        <a href="#"><span>Plantas Artificiales</span></a>
+                                        <a href="#"><span>Espejos Decorativos</span></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p>Informaci&oacute;n</p>
+                                    </div>
+                                    <span><!-- PARA LA LINEA --></span>
+                                    <div>
+                                        <a href="#"><span>Aviso Legal</span></a>
+                                        <a href="#"><span>Privacidad</span></a>
+                                        <a href="#"><span>Pol&iacute;tica de Cookies</span></a>
+                                        <a href="#"><span>Iniciar Sesi&oacute;n</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <img src="img/seccionFooter/aliado00.png" alt="Aliado00">
+                                    <p>Suport a la promoci&oacute; exterior de<br>la Comunitat Valenciana 2023<br>Import rebut: 32.249,00€</p>
+                                </div>
+                                <div>
+                                    <img src="img/seccionFooter/aliado01.png" alt="Aliado01">
+                                    <p>Capacitaciones a nivel nacional, virtuales y<br>presenciales desde el<br>a&ntilde;o 2011 hasta la actualidad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div>
+                        <div>
+                            <p><span>Copyright 2021 &copy; Casika. Todos los derechos reservado</span></p>
+                        </div>
+                        <div>
+                            <p><span>Created by:</span><span> chjPC</span><span> Company</span> &COPY; 2011.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <!-- BOTONES FLOTANTES -->
+        <div>
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=51992290137&text=Hola esto es una prueba" target="_blank">
+                    <span>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <a href="./">
+                    <span>
+                        <i class="fa-solid fa-pen"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <a href="#">
+                    <span>
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+</body> <!-- FIN ETIQUETA 04 -->
+</html> <!-- FIN ETIQUETA 02 -->
