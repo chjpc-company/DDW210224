@@ -1,0 +1,71 @@
+/*
+    Que es CSS?
+    Cascading Style Sheet (EN)
+    Hoja de Estilos en Cascada (ES)
+
+    selector{
+        propiedad00: valorPropiedad00;
+        propiedad01: valorPropiedad01;
+    }
+
+    SELECTORES CSS
+
+    1.- SELECTOR DE TIPO -> LLAMADO A UNA ETIQUETA.
+        body
+        div
+        input
+
+    2.- SELECTOR DE CLASE -> LLAMADO DE UNA CLASE INSERTADA EN UNA ETIQUETA.
+        .fondoClase
+            . -> HACE REFERENCIA QUE ES UNA CLASE.
+            fondoClase -> NOMBRE DE LA CLASE EN LA ETIQUETA.
+
+    3.- SELECTOR DE ID -> LLAMADO A UN IDENTIFICADOR.
+        #fondoID
+            # -> HACE REFERENCIA QUE ES UN ID.
+            fondoID -> NOMBRE DEL ID EN LA ETIQUETA.
+
+    4.- SELECTOR DE ATRIBUTO -> LLAMADO DEL ATRIBUTO Y SU VALOR INSERTADOS EN UNA ETIQUETA.
+        [type="email"]
+        [name="Email"]
+            [] -> HACE REFERENCIA QUE ES UN ATRIBUTO.
+            type -> EL ATRIBUTO DE LA ETIQUETA.
+            "email" -> EL VALOR DEL ATRIBUTO DE LA ETIQUETA.
+
+    5.- SELECTOR GLOBAL -> MODIFICA TODAS LAS ETIQUETAS INSERTADAS EN EL DOCUMENTO HTML.
+        * -> HACE REFERENCIA QUE MODIFICARA TODAS LAS ETIQUETAS.
+
+*/
+
+/* EJEMPLOS */
+/* Selector de Tipo */
+body{background: red;}
+/* Selector de Clase */
+.fondoClase{background: green;}
+/* Selector de ID */
+#fondoID{background: purple;}
+/* Selector de Atributo */
+[type="email"]{background: yellow;}
+[name="Email"]{background: orange;}
+/* Selector Global */
+*{background: white;}
+
+/*
+    METODOLOGÍAS / SINTAXIS
+
+    1.- CamelCase -> primerNombre
+    2.- PascalCase -> PrimerNombre
+    3.- SnakeCase -> primer_nombre
+    4.- KebabCase -> primer-nombre
+    5.- UpperCase + SnakeCase -> PRIMER_NOMBRE
+    6.- LowerCase -> primernombre
+
+    7.- B.E.M
+        B -> BLOQUE
+        E -> ELEMENTO
+        M -> MODIFICADOR
+        Ejemplos de renombre:
+            A.- bloque__elemento-modificador
+            B.- modificador__elemento-bloque
+            C.- elemento__bloque-modificador
+*/
