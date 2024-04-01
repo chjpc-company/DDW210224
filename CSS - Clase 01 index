@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- ETIQUETA 01 -->
+<html lang="es-ES"> <!-- ETIQUETA 02 -->
+<head> <!-- ETIQUETA 03 -->
+    
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- META DEL RESPONSIVE DESIGN -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!-- META DE DESCRIPCION -->
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+    <!-- META DEL AUTOR -->
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <!-- META DEL ESLOGAN -->
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+    <!-- TITULO DEL NAVEGADOR -->
+    <title>Modulo II - CSS</title>
+
+    <!-- ENLACE DEL FAVICON -->
+    <link rel="shortcut icon" href="#" type="image/png">
+    <!-- ENLACE DEL CSS -->
+    <link rel="stylesheet" href="css/propiedades.css">
+    <!-- ENLACE DE LOS ICONOS -->
+    <link rel="stylesheet" href="#">
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="#"></script>
+
+</head> <!-- FIN ETIQUETA 03 -->
+<body class="fondoClase" id="fondoID"> <!-- ETIQUETA 04 -->
+    
+    <main>
+        <input type="email" name="Email">
+        <!-- METODOLOGÍA B.E.M. -->
+        <section class="details">
+            <div class="details__container">
+                <div class="details__container-margin">
+                    <form action="" class="details__container-form formPlantilla">
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body> <!-- FIN ETIQUETA 04 -->
+</html> <!-- FIN ETIQUETA 02 -->
