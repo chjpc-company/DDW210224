@@ -1,0 +1,450 @@
+/*
+    Que es CSS?
+    Cascading Style Sheet (EN)
+    Hoja de Estilos en Cascada (ES)
+
+    selector{
+        propiedad00: valorPropiedad00;
+        propiedad01: valorPropiedad01;
+    }
+*/
+
+/*
+    SELECTORES CSS
+
+    1.- SELECTOR DE TIPO -> LLAMADO A UNA ETIQUETA.
+        body
+        div
+        input
+
+    2.- SELECTOR DE CLASE -> LLAMADO DE UNA CLASE INSERTADA EN UNA ETIQUETA.
+        .fondoClase
+            . -> HACE REFERENCIA QUE ES UNA CLASE.
+            fondoClase -> NOMBRE DE LA CLASE EN LA ETIQUETA.
+
+    3.- SELECTOR DE ID -> LLAMADO A UN IDENTIFICADOR.
+        #fondoID
+            # -> HACE REFERENCIA QUE ES UN ID.
+            fondoID -> NOMBRE DEL ID EN LA ETIQUETA.
+
+    4.- SELECTOR DE ATRIBUTO -> LLAMADO DEL ATRIBUTO Y SU VALOR INSERTADOS EN UNA ETIQUETA.
+        [type="email"]
+        [name="Email"]
+            [] -> HACE REFERENCIA QUE ES UN ATRIBUTO.
+            type -> EL ATRIBUTO DE LA ETIQUETA.
+            "email" -> EL VALOR DEL ATRIBUTO DE LA ETIQUETA.
+
+    5.- SELECTOR GLOBAL -> MODIFICA TODAS LAS ETIQUETAS INSERTADAS EN EL DOCUMENTO HTML.
+        * -> HACE REFERENCIA QUE MODIFICARA TODAS LAS ETIQUETAS.
+
+*/
+/* EJEMPLOS */
+/* Selector de Tipo */
+body{background: none;}
+/* Selector de Clase */
+.fondoClase{background: green;}
+/* Selector de ID */
+#fondoID{background: purple;}
+/* Selector de Atributo */
+[type="email"]{background: yellow;}
+[name="Email"]{background: orange;}
+/* Selector Global */
+*{background: none;}
+
+/*
+    METODOLOGÍAS / SINTAXIS
+
+    1.- CamelCase -> primerNombre
+    2.- PascalCase -> PrimerNombre
+    3.- SnakeCase -> primer_nombre
+    4.- KebabCase -> primer-nombre
+    5.- UpperCase + SnakeCase -> PRIMER_NOMBRE
+    6.- LowerCase -> primernombre
+
+    7.- B.E.M
+        B -> BLOQUE
+        E -> ELEMENTO
+        M -> MODIFICADOR
+        Ejemplos de renombre:
+            A.- bloque__elemento-modificador
+            B.- modificador__elemento-bloque
+            C.- elemento__bloque-modificador
+*/
+
+/*
+    UNIDADES DE MEDIDAS
+    1.- px -> UNIDAD DE MEDIDA EN PIXELES.
+        - 16px -> TAMAÑO DE 16 PIXELES.
+        - 200px -> TAMAÑO DE 200 PIXELES.
+
+    2.- % -> UNIDAD DE MEDIDA EN PORCENTAJE.
+        - 20% -> TAMAÑO DE 20 PORCIENTO.
+        - 100% -> TAMAÑO DE 100 PORCIENTO.
+    
+    3.- auto -> UNIDAD DE MEDIDA AUTOMÁTICA.
+        Ojo: Esta opción solo se usa para funciones multiples.
+*/
+
+/*
+    DIRECCIONAMIENTO
+    1.- top -> ARRIBA.
+    2.- bottom -> ABAJO.
+    3.- left -> IZQUIERDA.
+    4.- right -> DERECHA.
+    5.- center -> CENTRO.
+*/
+
+/*
+    DIMENSIONES
+    1.- width -> ANCHO.
+    2.- height -> ALTO.
+*/
+
+/*
+    PROPIEDADES CSS
+
+    1.- background -> MODIFICA EL COLOR DE FONDO.
+        - background: red; -> COLOR CON NOMBRE EN INGLES.
+        - background: rgb(0,0,0); -> COLOR CON RGB.
+        - background: rgba(0,0,0,0); -> COLOR CON TRANSPARENCIA.
+        - background: #3987ad; -> COLOR CON CODIGO HEXADECIMAL.
+        - background: url(imagen.jpg); -> FONDO CON IMAGEN.
+    
+    2.- background-position -> POSICION DE LA IMAGEN DE FONDO.
+        - background-position: top; -> POSICIONA LA IMAGEN EN LA PARTE DE ARRIBA.
+        - background-position: left; -> POSICIONA LA IMAGEN EN LA PARTE IZQUIERDA.
+        - background-position: right; -> POSICIONA LA IMAGEN EN LA PARTE DERECHA.
+        - background-position: bottom; -> POSICIONA LA IMAGEN EN LA PARTE DE ABAJO.
+        - background-position: center; -> POSICIONA LA IMAGEN EN LA PARTE DEL CENTRO.
+
+    3.- background-repeat -> DECIDE SI LA IMAGEN DE FONDO SE REPITE O NO.
+        - background-repeat: no-repeat; -> LA IMAGEN NO SE REPETIRA.
+        - background-repeat: repeat; -> LA IMAGEN SE REPETIRA.
+
+    4.- background-size -> DEFINE LAS DIMENSIONES DE LA IMAGEN DE FONDO.
+        - background-size: contain; -> DIMENSIONA LA IMAGEN AL ANCHO Y ALTO DEL CONTENEDOR.
+        - background-size: cover; -> DIMENSIONA LA IMAGEN AL 100% DE ANCHO Y ALTO.
+        - background-size: 100%; -> DIMENSIONA LA IMAGEN AL 100% DE ANCHO Y ALTO.
+    
+    5.- background-attachment -> DEFINE LA POSTURA DE LA IMAGEN DE FONDO.
+        - background-attachment: scroll; -> MANTIENE UNA BARRA DE DESPLAZAMIENTO.
+        - background-attachment: fixed; -> SE MANTIENE FIJA EN SU CONTENEDOR.
+*/
+/* Ejemplo background */
+.colorIngles{
+    background: red;
+
+    width: 50px;
+    height: 50px;
+}
+.colorRGB{
+    background: rgba(8,56,71,0.6);
+
+    width: 50px;
+    height: 50px;
+}
+.colorHEX{
+    background: #7a0447;
+
+    width: 50px;
+    height: 50px;
+}
+.fondoIMG{
+    background: url('../img/info00.png');
+
+    width: 250px;
+    height: 250px;
+}
+.fondoIMG01{
+    background: url('../img/callCenterMujer.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+    background: url('../img/callCenterMujer.png') center no-repeat fixed;
+
+    width: 100%;
+    height: 400px;
+}
+
+/*
+    6.- width -> DEFINE EL ANCHO DE LOS CONTENEDORES.
+        - min-width -> DEFINE EL ANCHO MINIMO DEL CONTENEDOR.
+        - max-width -> DEFINE EL ANCHO MAXIMO DEL CONTENEDOR.
+
+    7.- height -> DEFINE EL ALTO DE LOS CONTENEDORES.
+        - min-height -> DEFINE EL ALTO MINIMO DEL CONTENEDOR.
+        - max-height -> DEFINE EL ALTO MAXIMO DEL CONTENEDOR.
+*/
+/* Ejemplos min / max */
+.minWi{
+    width: 100%;
+    height: 400px;
+    background: blue;
+
+    min-width: 800px;
+}
+.maxWi{
+    width: 100%;
+    height: 400px;
+    background: purple;
+
+    max-width: 800px;
+}
+
+/*
+    8.- margin -> APLICA MARGENES EXTERNOS DE LOS CONTENEDORES.
+        - margin-top -> LOS MARGENES EXTERNO SOLO HACIA ARRIBA.
+        - margin-bottom -> LOS MARGENES EXTERNO SOLO HACIA ABAJO.
+        - margin-left -> LOS MARGENES EXTERNO SOLO HACIA LA IZQUIERDA.
+        - margin-right -> LOS MARGENES EXTERNO SOLO HACIA LA DERECHA.
+
+    9.- padding -> APLICA MARGENES INTERNOS DE LOS CONTENEDORES.
+        - padding-top -> LOS MARGENES INTERNOS SOLO HACIA ARRIBA.
+        - padding-bottom -> LOS MARGENES INTERNOS SOLO HACIA ABAJO.
+        - padding-left -> LOS MARGENES INTERNOS SOLO HACIA LA IZQUIERDA.
+        - padding-right -> LOS MARGENES INTERNOS SOLO HACIA LA DERECHA.
+*/
+/* Ejemplos EXTER/INTER */
+.margenEXT{
+    width: 50px;
+    height: 50px;
+    background: black;
+
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+
+    margin: 20px 10px 50px 10px;
+}
+.margenINT{
+    width: 200px;
+    height: auto;
+    background: darkgray;
+
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+
+    padding: 10px 10px 20px 50px;
+}
+
+/*
+    10.- border -> APLICA BORDES A LOS CONTENEDORES.
+        - border-top -> CREA UN BORDE SOLO ARRIBA.
+        - border-bottom -> CREA UN BORDE SOLO ABAJO.
+        - border-left -> CREA UN BORDE SOLO A LA IZQUIERDA.
+        - border-right -> CREA UN BORDE SOLO A LA DERECHA.
+        TIPO DE BORDE
+        - solid -> BORDE SOLIDO.
+        - groove -> BORDE SOLIDO.
+        - dotted -> BORDE PUNTEADO.
+        - dashed -> BORDE CUADRADO.
+        - double -> DOBLE BORDE SOLIDO.
+    
+    11.- border-radius -> REDONDEA LOS BORDES.
+        - border-top-left-radius -> REDONDEA EL BORDE DE ARRIBA Y LA IZQUIERDA.
+        - border-top-right-radius -> REDONDEA EL BORDE DE ARRIBA Y LA DERECHA.
+        - border-bottom-left-radius -> REDONDEA EL BORDE DE ABAJO Y LA IZQUIERDA.
+        - border-bottom-right-radius -> REDONDEA EL BORDE DE ABAJO Y LA DERECHA.
+
+    DATO: rotate -> ROTA FIGURAS/CONTENEDORES O TEXTOS
+*/
+/* Ejemplos Bordes */
+.bordeGlobal{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    border-top: 2px solid #000;
+    border-left: 2px dashed yellowgreen;
+    border-right: 2px dotted red;
+    border-bottom: 8px double purple;
+
+    border: 5px solid blue;
+}
+.bordeRedondo{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 10px solid black;
+
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 50px;
+
+    border-radius: 30px 10px 10px 50px;
+}
+.circulo{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background: lightblue;
+    border: 2px dotted darkred;
+    /* GENERAR CIRCULO -> PX - % */
+    border-radius: 150px;
+    border-radius: 50%;
+}
+.rombo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: darkred;
+    border: 2px dotted lightcyan;
+    /* GENERAR ROMBO -> deg(grados) */
+    rotate: -45deg;
+}
+
+/*
+    COMPORTAMIENTO DE LOS CONTENEDORES
+
+        1.- CONTENEDOR PADRE -> ES UNA CAJA PRINCIPAL.
+            <div> ---> CONTENEDOR PADRE
+            
+            </div>
+
+        2.- CONTENEDOR HIJO -> ES UNA CAJA DENTRO DEL CONTENEDOR PADRE.
+            <div> ---> CONTENEDOR PADRE
+                <div> ---> CONTENEDOR HIJO
+                
+                </div>
+            </div>
+
+    12.- position -> ESPECIFICA EL COMPORTAMIENTO DE UN CONTENEDOR EN EL DOCUMENTO.
+        - position: relative; -> POSICIONAMIENTO COMPATIBLE CON EL CONTENEDOR PADRE.
+        - position: absolute; -> POSICIONAMIENTO COMPATIBLE CON EL CONTENEDOR HIJO.
+        - position: fixed; -> POSICIONAMIENTO PADRE Y LIBRE.
+*/
+/* Ejemplos Position */
+.positionPadre{
+    width: 320px;
+    height: 90px;
+    background: #000;
+    margin-top: 10px;
+    /* CONVERTIR EN PADRE */
+    position: relative;
+}
+.positionHijo00{
+    width: 100%;
+    height: 45px;
+    background: #7a0447;
+    /* CONVERTIR EN HIJO */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.positionHijo01{
+    width: 100%;
+    height: 45px;
+    background: blue;
+    /* CONVERTIR EN HIJO */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.positionHijo02,
+.positionHijo03,
+.positionHijo04{
+    height: 100%;
+    /* CONVERTIR EN HIJO */
+    position: absolute;
+}
+.positionHijo02{
+    width: 120px;
+    background: yellow;
+    right: 0;
+}
+.positionHijo03{
+    width: 40px;
+    background: lightpink;
+    left: 0;
+}
+.positionHijo04{
+    width: 160px;
+    background: red;
+    left: 40px;
+}
+
+        /*FIXED*/
+.exampleFixed{
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 60px;
+    /* CONVERTIR EN FLOTANTE O FIJAR */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.fixedHijo{
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+/*
+    13.- display -> ESPECIFICA EL COMPORTAMIENTO DE UN CONTENEDOR EN EL DOCUMENTO.
+        - display: block; -> CONVIERTE UN CONTENEDOR EN BLOQUE.
+        - display: none; -> OCULTA CONTENEDORES Y NO SON TOMADOS EN CUENTA.
+        - display: flex; -> CONVIERTE A LOS CONTENEDORES HIJOS EN FLEXIBLES.
+*/
+/* Ejemplos display */
+.exampleDisplayBlock{
+    width: 50px;
+    height: 60px;
+    background: #7a0447;
+    margin-top: 10px;
+    /* COMPORTAMIENTO */
+    display: block;
+}
+        /*Flex*/
+.exampleFlexPadre{
+    width: 100%;
+    height: 200px;
+    background: red;
+    /* FLEXIBILIZAR CONTENEDORES */
+    display: flex;
+}
+.flexHijo00,
+.flexHijo01,
+.flexHijo02{
+    width: 100%;
+    height: 100%;
+}
+.flexHijo00{background: green;}
+.flexHijo01{background: lightcoral;}
+.flexHijo02{background: darkred;}
+
+.exampleFlexPadre00{
+    width: 100%;
+    height: auto;
+    background: gray;
+    margin-top: 10px;
+}
+.containerFlex{
+    width: 100%;
+    height: 240px;
+    /* FLEXIBILIZAR */
+    display: flex;
+    margin-top: 5px;
+}
+.flexHijo03,
+.flexHijo04,
+.flexHijo05,
+.flexHijo06{
+    width: 100%;
+    height: 100%;
+}
+.flexHijo03{background: lightseagreen;}
+.flexHijo04{background: lightblue;}
+.flexHijo05{background: lightgoldenrodyellow;}
+.flexHijo06{background: lightsteelblue;}
