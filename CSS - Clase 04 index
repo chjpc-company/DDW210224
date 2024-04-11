@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!-- ETIQUETA 01 -->
+<html lang="es-ES"> <!-- ETIQUETA 02 -->
+<head> <!-- ETIQUETA 03 -->
+    
+    <!-- META DE CARACTERES -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- META DEL RESPONSIVE DESIGN -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <!-- META DE DESCRIPCION -->
+    <meta name="description" content="SEO -> MOTORES DE BUSQUEDA / ADELMA, TIENDA ONLINE, ROPA, ZAPATOS, NIKE, ADIDAS">
+    <!-- META DEL AUTOR -->
+    <meta name="author" content="NOMBRE DEL AUTOR">
+    <!-- META DEL ESLOGAN -->
+    <meta property="og:title" content="NOMBRE DE LA EMPRESA">
+    <meta property="og:description" content="SEO -> MOTORES DE BUSQUEDA">
+
+    <!-- TITULO DEL NAVEGADOR -->
+    <title>Modulo II - CSS</title>
+
+    <!-- ENLACE DEL FAVICON -->
+    <link rel="shortcut icon" href="#" type="image/png">
+    <!-- ENLACE DEL CSS -->
+    <link rel="stylesheet" href="css/propiedades.css">
+    <!-- ENLACE DE LOS ICONOS -->
+    <link rel="stylesheet" href="#">
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="#"></script>
+
+</head> <!-- FIN ETIQUETA 03 -->
+<body> <!-- ETIQUETA 04 -->
+    
+    <main>
+        <input type="email" name="Email">
+        <!-- METODOLOGÍA B.E.M. -->
+        <section class="details">
+            <div class="container__global">
+                <div class="details__container-margin">
+                    <form action="" class="details__container-form formPlantillaTwo">
+
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="contex">
+            <div class="contex__container">
+                <div class="contex__cont-mar">
+
+                </div>
+            </div>
+        </section>
+        <!-- EJEMPLOS CSS -->
+            <!-- COLOR CON NOMBRE EN INGLES -->
+        <div class="colorIngles"></div>
+            <!-- COLOR CON RGB -->
+        <div class="colorRGB"></div>
+            <!-- COLOR CON HEXADECIMAL -->
+        <div class="colorHEX"></div>
+            <!-- FONDO CON IMAGEN -->
+        <div class="fondoIMG"></div>
+        <div class="fondoIMG01"></div>
+
+            <!-- WI / HE -->
+        <div class="minWi"></div>
+        <div class="maxWi"></div>
+
+            <!-- MARGENES EXTER/INTER -->
+        <div class="margenEXT"></div>
+        <div class="margenINT">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, eligendi veritatis culpa aut laborum commodi!
+        </div>
+
+            <!-- BORDES / CIRCULO -->
+        <div class="bordeGlobal"></div>
+        <div class="bordeRedondo"></div>
+        <div class="circulo"></div>
+        <div class="rombo"></div>
+
+            <!-- POSITION -->
+        <div class="positionPadre"></div>
+        <div class="positionPadre">
+            <div class="positionHijo00"></div>
+            <div class="positionHijo01"></div>
+        </div>
+
+        <div class="positionPadre">
+            <div class="positionHijo02"></div>
+            <div class="positionHijo03"></div>
+            <div class="positionHijo04"></div>
+        </div>
+
+                <!-- FIXED -->
+        <div class="exampleFixed">
+            <div class="fixedHijo"></div>
+        </div>
+        
+            <!-- DISPLAY -->
+        <div class="exampleDisplayBlock"></div>
+        <div class="exampleFlexPadre">
+            <div class="flexHijo00"></div>
+            <div class="flexHijo01"></div>
+            <div class="flexHijo02"></div>
+        </div>
+        <div class="exampleFlexPadre00">
+            <div class="containerFlex">
+                <div class="flexHijo03"></div>
+                <div class="flexHijo04"></div>
+            </div>
+            <div class="containerFlex">
+                <div class="flexHijo05"></div>
+                <div class="flexHijo06"></div>
+            </div>
+            <div class="containerFlex">
+                <div class="flexHijo03"></div>
+                <div class="flexHijo04"></div>
+            </div>
+        </div>
+
+    </main>
+
+</body> <!-- FIN ETIQUETA 04 -->
+</html> <!-- FIN ETIQUETA 02 -->
