@@ -1,0 +1,127 @@
+/* FORMATEAR EL DOCUMENTO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.titulo{
+    margin: 10px 20px;
+}
+
+/* EJERCICIO 01 */
+.nav{
+    width: 100%;
+    height: auto;
+    background: grey;
+}
+.nav__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav__ul-link{
+    display: block;
+    padding: 10px;
+}
+
+/* EJERCICIO 02 */
+.nav00{
+    width: 100%;
+    height: auto;
+    background: grey;
+}
+.nav00__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.nav00__ul-link{
+    display: block;
+    padding: 10px;
+}
+
+/* EJERCICIO 03 */
+.nav01__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* EJERCICIO 04 */
+.nav02__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* EJERCICIO 05 */
+.nav03__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* EJERCICIO 06 */
+.nav04__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.nav04__ul-lista{width: 100%;}
+.nav04__ul-link{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EJERCICIO 07 */
+.nav05{
+    width: 280px;
+    height: auto;
+    background: grey;
+}
+.nav05__ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* EJERCICIO 08 */
+.gallery{
+    width: 100%;
+    height: auto;
+    background: yellow;
+}
+.gallery__content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery__content-box{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px dotted gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery__content-box img{
+    display: block;
+    width: auto;
+    height: 200px;
+}
