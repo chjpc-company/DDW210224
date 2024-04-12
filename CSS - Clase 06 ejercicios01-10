@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios 01 - 10</title>
+    <link rel="stylesheet" href="css/ejercicios01-10.css">
+</head>
+<body>
+    
+    <p class="titulo">Ejercicio 01</p>
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__ul-lista" style="background: wheat;"><a class="nav__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav__ul-lista"><a class="nav__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav__ul-lista"><a class="nav__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav__ul-lista"><a class="nav__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 02</p>
+    <nav class="nav00">
+        <ul class="nav00__ul">
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav00__ul-lista" style="background: wheat;"><a class="nav00__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 03</p>
+    <nav class="nav00">
+        <ul class="nav01__ul">
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav00__ul-lista" style="background: wheat;"><a class="nav00__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 04</p>
+    <nav class="nav00">
+        <ul class="nav02__ul">
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav00__ul-lista"><a class="nav00__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav00__ul-lista" style="background: lightcyan;"><a class="nav00__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 05</p>
+    <nav class="nav00">
+        <ul class="nav03__ul">
+            <li class="nav03__ul-lista"><a class="nav00__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav03__ul-lista"><a class="nav00__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav03__ul-lista"><a class="nav00__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav03__ul-lista" style="background: lightcyan;"><a class="nav00__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 06</p>
+    <nav class="nav">
+        <ul class="nav04__ul">
+            <li class="nav04__ul-lista"><a class="nav04__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav04__ul-lista"><a class="nav04__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav04__ul-lista" style="background: lightcyan;"><a class="nav04__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav04__ul-lista"><a class="nav04__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 07</p>
+    <nav class="nav05">
+        <ul class="nav05__ul">
+            <li class="nav__ul-lista"><a class="nav__ul-link" href="#">Enlace 1</a></li>
+            <li class="nav__ul-lista"><a class="nav__ul-link" href="#">Enlace 2</a></li>
+            <li class="nav__ul-lista" style="background: lightcyan;"><a class="nav__ul-link" href="#">Enlace 3</a></li>
+            <li class="nav__ul-lista"><a class="nav__ul-link" href="#">Enlace 4</a></li>
+        </ul>
+    </nav>
+
+    <p class="titulo">Ejercicio 08</p>
+    <section class="gallery">
+        <div class="gallery__content">
+            <div class="gallery__content-box">
+                <img src="avatar/rostroAvatar00.png" alt="Rostro01">
+            </div>
+            <div class="gallery__content-box">
+                <img src="avatar/rostroAvatar01.png" alt="Rostro01">
+            </div>
+            <div class="gallery__content-box">
+                <img src="avatar/rostroAvatar02.png" alt="Rostro01">
+            </div>
+            <div class="gallery__content-box">
+                <img src="avatar/rostroAvatar03.png" alt="Rostro01">
+            </div>
+            <div class="gallery__content-box">
+                <img src="avatar/rostroAvatar04.png" alt="Rostro01">
+            </div>
+            <div class="gallery__content-box">
+                <img src="avatar/rostroAvatar05.png" alt="Rostro01">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
