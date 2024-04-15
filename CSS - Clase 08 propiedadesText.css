@@ -1,0 +1,348 @@
+/* FUENTES NUEVAS */
+@import url(../fonts/Tangerine/stylesheet.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+/* CSS - TEXTOS */
+/*
+    19.- font-family -> TIPO DE LETRA.
+        - font-family: cursive;
+        - font-family: fantasy;
+        - font-family: monospace;
+        - font-family: serif;
+        - font-family: sans-serif;
+        - font-family: Arial;
+*/
+/* Ejemplos */
+/* .exampleFontFam00 POR DEFECTO */
+.exampleFontFam01{font-family: cursive;}
+.exampleFontFam02{font-family: fantasy;}
+.exampleFontFam03{font-family: monospace;}
+.exampleFontFam04{font-family: serif;}
+.exampleFontFam05{font-family: sans-serif;}
+
+/*
+    20.- font-size -> TAMAÑO DE LA LETRA.
+        (TAMAÑO ABSOLUTO)
+        - font-size: xx-small;
+        - font-size: x-small;
+        - font-size: medium;
+        - font-size: large;
+        - font-size: x-large;
+        - font-size: xx-large;
+        (TAMAÑO RELATIVO)
+        - font-size: larger;
+        - font-size: smaller;
+        (TAMAÑO CON PIXELAJE)
+        - font-size: 1px - infinito;
+        (TAMAÑO CON PORCENTAJE)
+        - font-size: 1% - infinito;
+*/
+/* Ejemplos */
+    /* TAMAÑO ABSOLUTO */
+.exampleFontSize00{font-size: xx-small;}
+.exampleFontSize01{font-size: x-small;}
+.exampleFontSize02{font-size: medium;}
+.exampleFontSize03{font-size: large;}
+.exampleFontSize04{font-size: x-large;}
+.exampleFontSize05{font-size: xx-large;}
+    /* TAMAÑO RELATIVO */
+.exampleFontSize06{font-size: larger;}
+.exampleFontSize07{font-size: smaller;}
+    /* TAMAÑO PIXELAJE */
+.exampleFontSize08{font-size: 102px;}
+    /* TAMAÑO PORCENTAJE */
+.exampleFontSize09{font-size: 100%;}
+
+/*
+    21.- font-weight -> TEXTO EN NEGRITA.
+        - font-weight: normal;
+        - font-weight: bold;
+        - font-weight: bolder;
+        - font-weight: lighter;
+        - font-weight: 100; -> GROSOR DEL TRAZO, 100 - 900.
+*/
+/* Ejemplos */
+.exampleFontWeight00{font-weight: normal;}
+.exampleFontWeight01{font-weight: bold;}
+.exampleFontWeight02{font-weight: bolder;}
+.exampleFontWeight03{font-weight: lighter;}
+.exampleFontWeight04{font-weight: 900;}
+
+/*
+    22.- font-style -> TIPO DE CURSIVA.
+        - font-style: normal;
+        - font-style: italic;
+        - font-style: oblique;
+*/
+/* Ejemplos */
+.exampleFontStyle00{font-style: normal;}
+.exampleFontStyle01{font-style: italic;}
+.exampleFontStyle02{font-style: oblique;}
+
+/*
+    23.- text-decoration -> AGREGA UNA LINEA AL TEXTO.
+        - text-decoration: none; -> QUITA LAS LINEAS POR DEFECTO.
+        - text-decoration: line-through; -> AGREGA UNA LINEA EN EL CENTRO.
+        - text-decoration: overline; -> AGREGA UNA LINEA EN LA PARTE SUPERIOR.
+        - text-decoration: underline; -> AGREGA UNA LINEA EN LA PARTE INFERIOR.
+*/
+/* Ejemplos */
+.exampleTextDecoration00{text-decoration: none;display: block;}
+.exampleTextDecoration01{text-decoration: line-through;}
+.exampleTextDecoration02{text-decoration: overline;}
+.exampleTextDecoration03{text-decoration: underline;}
+
+/*
+    24.- letter-spacing -> ESPACIO ENTRE CARACTERES.
+        - letter-spacing: normal; -> VALOR ESTANDAR.
+        - letter-spacing: distancia(1px - infinito); -> VALOR DE SEPARACION EN PIXELES.
+*/
+/* Ejemplos */
+.exampleLetterSpacing00{letter-spacing: normal;}
+.exampleLetterSpacing01{letter-spacing: 5px;}
+
+/*
+    25.- line-height -> ESPACIADO ENTRE LINEAS.
+        - line-height: normal; -> VALOR ESTANDAR.
+        - line-height: 0 - 9; -> VALOR NUMERICO.
+        - line-height: distancia(1px - infinito); -> VALOR EN PIXELES.
+        - line-height: 1% - inifinito; -> VALOR EN PORCENTAJE.
+*/
+/* Ejemplos */
+.exampleLineHeight00{line-height: normal;width: 300px;height: auto;padding: 5px;}
+.exampleLineHeight01{line-height: 1.5;width: 300px;height: auto;padding: 5px;}
+.exampleLineHeight02{line-height: 20px;width: 300px;height: auto;padding: 5px;}
+.exampleLineHeight03{line-height: 100%;width: 300px;height: auto;padding: 5px;}
+
+/*
+    26.- word-spacing -> ESPACIADO ENTRE PALABRAS.
+        - word-spacing: normal; -> VALOR ESTANDAR.
+        - word-spacing: distancia(1px - infinito); -> VALOR EN PIXELES.
+*/
+/* Ejemplos */
+.exampleWordSpacing00{word-spacing: normal;}
+.exampleWordSpacing01{word-spacing: 15px;}
+
+/*
+    27.- white-space -> ESPACIOS EN BLANCO Y SALTOS DE LINEA.
+        - white-space: normal; -> VALOR ESTANDAR.
+        - white-space: nowrap; -> TODOS LOS ESPACIOS EN UNA SOLA LINEA.
+*/
+/* Ejemplos */
+.exampleWhiteSpace00{white-space: normal;width: 150px;height: auto;padding: 5px;}
+.exampleWhiteSpace01{white-space: nowrap;width: 150px;height: auto;padding: 5px;}
+
+/*
+    28.- text-ident -> SANGRIA A LA PRIMERA DE LA LINEA.
+        - text-ident: distancia(1px - infinito); -> VALOR EN PIXELES.
+        - text-ident: 1% - inifinito; -> VALOR EN PORCENTAJE.
+*/
+/* Ejemplos */
+.exampleTextIdent00{text-indent: 20px;width: 150px;height: auto;}
+.exampleTextIdent01{text-indent: 5%;width: 150px;height: auto;}
+
+/*
+    29.- text-align -> ALINEACION DE LOS TEXTOS Y PARRAFOS.
+        - text-align: left; -> ALINEA TODOS HACIA LA IZQUIERDA(VALOR ESTANDAR).
+        - text-align: right; -> ALINEA TODO HACIA LA DERECHA.
+        - text-align: center; -> ALINEA TODO EN EL CENTRO.
+        - text-align: justify; -> ALINEA TODO PROPORCIONALMENTE EN EL ANCHO DEL CONTENDOR.
+*/
+/* Ejemplos */
+.exampleTextAlign01{text-align: right;}
+.exampleTextAlign02{text-align: center;}
+.exampleTextAlign03{text-align: justify;padding: 10px;border: 1px solid #000;}
+
+/*
+    30.- vertical-align -> ALINEACION DE FORMA VERTICAL.
+	- vertical-align: top; -> ALINEA UN OBJETO DENTRO DEL TEXTO O PARRAFO HACIA ARRIBA.
+	- vertical-align: middle; -> ALINEA UN OBJETO DENTRO DEL TEXTO O PARRAFO HACIA EL CENTRO.
+	- vertical-align: bottom; -> ALINEA UN OBJETO DENTRO DEL TEXTO O PARRAFO HACIA ABAJO.
+*/
+/* Ejemplos */
+.exampleVerticalAlign00{
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.exampleVerticalAlign00 img{
+    width: 12px;
+    height: 12px;
+    vertical-align: top;
+}
+
+.exampleVerticalAlign01{
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.exampleVerticalAlign01 img{
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+.exampleVerticalAlign02{
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.exampleVerticalAlign02 img{
+    width: 12px;
+    height: 12px;
+    vertical-align: bottom;
+}
+
+/*
+    31.- text-transform -> CONVIERTE MAYUSCULAS / MINUSCULAS.
+        - text-transform: none; -> VALOR ESTANDAR.
+        - text-transform: capitalize; -> PRIMERA LETRA DE LA PALABRA EN MAYUSCULA.
+        - text-transform: lowercase; -> TODAS LAS LETRAS EN MINUSCULA.
+        - text-transform: uppercase; -> TODAS LAS LETRAS EN MAYUSCULA.
+*/
+/* Ejemplos */
+.exampleTextTransform00{text-transform: none;margin-left: 25px;}
+.exampleTextTransform01{text-transform: capitalize;margin-left: 25px;}
+.exampleTextTransform02{text-transform: lowercase;margin-left: 25px;}
+.exampleTextTransform03{text-transform: uppercase;margin-left: 25px;}
+
+/*
+    32.- text-shadow -> EFECTO DE SOMBRA EN EL TEXTO.
+        - text-shadow: 2px 4px black; -> SOMBRA -> 2PX A LA DERECHA, 4PX HACIA ABAJO.
+        - text-shadow: 2px 4px 8px black; -> SOMBRA -> 8px ITENSIDAD DE LA SOMBRA.
+*/
+/* Ejemplos */
+.exampleTextShadow00{
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 25px;
+    /* Sombra al texto */
+    text-shadow: 1px 1px #000;
+}
+.exampleTextShadow01{
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 25px;
+    /* Sombra al texto */
+    text-shadow: 1px 1px 2px green;
+}
+
+/*
+    33.- overflow -> SI EL CONTENIDO DESBORDA AL CONTENEDOR.
+        - overflow: visible; -> VALOR ESTANDAR.
+        - overflow: auto; -> COLOCA BARRAS DE DESPLAZAMIENTO.
+        - overflow: hidden; -> OCULTA EL TEXTO DESBORDANTE.
+        - overflow: scroll; -> COLOCA BARRAS DE DESPLAZAMIENTO.
+*/
+/* Ejemplos */
+.exampleOverflow00{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    padding: 5px;
+    margin: 0 0 10px 25px;
+    border: 1px dotted gray;
+    /* Contenido desbordante */
+    overflow: visible;
+}
+.exampleOverflow00 p{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.exampleOverflow01{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    padding: 5px;
+    margin: 0 0 10px 25px;
+    border: 1px dotted gray;
+    /* Contenido desbordante */
+    overflow: auto;
+}
+.exampleOverflow01 p{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.exampleOverflow02{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    padding: 5px;
+    margin: 0 0 10px 25px;
+    border: 1px dotted gray;
+    /* Contenido desbordante */
+    overflow: hidden;
+}
+.exampleOverflow02 p{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.exampleOverflow03{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    padding: 5px;
+    margin: 0 0 10px 25px;
+    border: 1px dotted gray;
+    /* Contenido desbordante */
+    overflow: scroll;
+}
+.exampleOverflow03 p{
+    width: 550px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/*
+    34.- color -> PERMITE DAR UN COLOR AL TEXTO.
+        - color: red;
+        - color: rgb(0,0,0);
+        - color: #000000;
+*/
+/* Ejemplos */
+.exampleColor00{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+    /* Color al texto */
+    color: red;
+}
+.exampleColor01{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+    /* Color al texto */
+    color: rgb(183,230,52);
+}
+.exampleColor02{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+    /* Color al texto */
+    color: #0044ff;
+}
+
+/*
+    AGREGAR FUENTES NUEVAS
+*/
+.newFonts00{
+    font-family: 'Tangerine';
+    font-size: 32px;
+    color: lightslategray;
+    font-weight: bold;
+}
