@@ -1,0 +1,130 @@
+/*
+    PSEUDOCLASES
+    Una pseudoclase CSS es una palabra clave que se añade a los selectores
+    y que especifica un estado especial del elemento seleccionado.
+
+    :pseudoclase -> REPRESENTACIÓN.
+
+    SINTAXIS:
+
+    selector:pseudoclase{
+        propiedad: valorPropiedad;
+    }
+*/
+
+/*
+    :hover -> ACCIÓN AL PASAR EL CURSOR.
+*/
+/* Ejemplo */
+.exampleHoverPadre00{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 1px solid #000;
+}
+.exampleHoverHijo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.exampleHoverHijo00{background: blue;}
+.exampleHoverHijo01{background: red;}
+    /* Hover */
+.exampleHoverPadre00:hover .exampleHoverHijo00{z-index: 1;background: green;}
+
+.exampleHoverPadre01{
+    width: 300px;
+    height: 300px;
+    background: lightcyan;
+    border: 1px solid #000;
+}
+/* Hover */
+.exampleHoverPadre01:hover{background: lightgreen;}
+
+.exampleHoverPadre02{
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.exampleHoverPadre02:hover{font-family: fantasy;color: pink;text-shadow: 0.5px 0.5px #000;}
+
+.exampleHoverPadre03{
+    width: 100px;
+    height: 120px;
+    background: yellow;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.exampleHoverHijo02{
+    font-family: Courier;
+    font-size: 12px;
+    text-align: center;
+    color: blue;
+    display: block;
+    position: absolute;
+    top: calc(50% - 36px);
+    right: -500px;
+}
+/* hover */
+.exampleHoverPadre03:hover .exampleHoverHijo02{
+    right: 0;
+}
+
+/*
+    :active -> LA ETIQUETA EN EL ESTADO DE ACTIVO, REALIZA CAMBIOS.
+*/
+/* Ejemplos */
+.exampleActive00 a{
+    display: block;
+    font-family: cursive;
+    font-size: 14px;
+    color: #000;
+}
+/* Active */
+.exampleActive00 a:active{
+    color: purple;
+    border-bottom: 2px solid #000;
+}
+
+/*
+    :checked-> LA ETIQUETA EN EL ESTADO DE CHECK, REALIZA CAMBIOS.
+*/
+/* Ejemplos */
+.exampleChecked00 label{
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* Checked */
+.exampleChecked00 input:checked{
+    width: 24px;
+    height: 24px;
+}
+
+/*
+    :visited -> TE INFORMA SOBRE LAS PAGINAS VISITADAS.
+*/
+/* Ejemplos */
+.exampleVisited00 a{
+    font-family: fantasy;
+    font-size: 24px;
+    text-decoration: none;
+    color: chocolate;
+}
+/* Visited */
+.exampleVisited00 a:visited{
+    color: red;
+}
+
+/*
+    :disabled -> LA ETIQUETA EN EL ESTADO DE DESACTIVADO, REALIZA CAMBIOS.
+*/
+/* Ejemplos */
+.exampleDisabled00 input:disabled{
+    background: red;
+    color: gray;
+    font-size: 18px;
+}
