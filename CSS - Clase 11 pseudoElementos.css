@@ -1,0 +1,197 @@
+/* ORDEN */
+/* 1.- IMPORTACIONES */
+@import url(../fonts/Tangerine/stylesheet.css);
+
+/* 2.- VARIABLES */
+:root{
+    --azul: blue;
+    --rojo: red;
+    --amarillo: yellow;
+}
+
+/* 3.- FORMATEO DEL DOCUMENTO */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #000;
+    box-sizing: border-box;
+}
+a{text-decoration: none;display: block;}
+img{width: 200px;height: auto;}
+
+h1{margin-left: 25px;margin-top: 25px;}
+
+/* 4.- PROPIEDADES A USAR */
+
+/*
+    PSEUDOELEMENTO
+    Una pseudoelemento CSS es una palabra clave que se añade a los selectores
+    y crea un objeto o estilo del elemento seleccionado.
+
+    ::pseudoElemento -> REPRESENTACIÓN.
+
+    SINTAXIS:
+
+    selector::pseudoElemento{
+        propiedad: valorPropiedad;
+    }
+*/
+/*
+    ::before -> AGREGA UN OBJETO AL INICIO DEL ELEMENTO PRINCIPAL.
+*/
+/* Ejemplo */
+    /* Before */
+.exampleBefore00::before{
+    content: "1.- "; /* AGREGAR SIEMPRE LA PROPIEDAD -> content: ""; */
+    margin-right: 7px;
+    margin-left: 10px;
+}
+
+.exampleBefore01{
+    padding-left: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+    /* Before */
+.exampleBefore01:hover::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: var(--rojo);
+
+    position: absolute;
+    left: 0;
+}
+
+/*
+    ::after -> AGREGA UN OBJETO AL FINAL DEL ELEMENTO PRINCIPAL.
+*/
+/* Ejemplo */
+    /* After */
+.exampleAfter00{
+    padding-left: 14px;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+}
+.exampleAfter00:hover::after{
+    content: "<- Estoy leyendo este parrafo.";
+    margin-left: 7px;
+    padding: 2px;
+    background: var(--azul);
+}
+
+    /* Before / After */
+.exampleBeforeAfter{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 3px solid var(--rojo);
+    margin: 0 0 20px 20px;
+}
+    /* Before */
+.exampleBeforeAfter::before{
+    content: "Hola mundo!";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    background: var(--amarillo);
+    color: orangered;
+}
+    /* After */
+.exampleBeforeAfter:hover::after{
+    content: "Z-Index 02";
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    background: var(--azul);
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*
+    ::marker -> EDITA LAS DECORACIONES DE UNA LISTA.
+*/
+/* Ejemplo */
+.exampleMarker00{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.exampleMarker00 li{vertical-align: middle;}
+.exampleMarker00 li:nth-last-child(1) p{color: var(--azul);}
+.exampleMarker00 li:nth-last-child(2) p{color: var(--rojo);}
+.exampleMarker00 li:nth-last-child(3) p{color: purple;}
+.exampleMarker00 li:nth-last-child(4) p{color: #17ad23;}
+    /* Marker */
+.exampleMarker00 li::marker{
+    color: lightcoral;
+    font-size: 12px;
+}
+
+/*
+    ::placeholder -> APLICA ESTILOS AL TEXTO PROVICIONAL DE UN INPUT O TEXTAREA.
+*/
+/* Ejemplo */
+.examplePlaceholder00{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgreen;
+}
+.examplePlaceholder00 input,
+.examplePlaceholder00 textarea{
+    width: calc(30% - 20px);
+    height: 40px;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    border-bottom: 1px solid chocolate;
+    padding: 5px 10px;
+    color: chocolate;
+}
+    /* Placeholder */
+.examplePlaceholder00 input::placeholder,
+.examplePlaceholder00 textarea::placeholder{
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: chocolate;
+    text-transform: capitalize;
+}
+
+/*
+    ::selection -> APLICA ESTILOS AL TEXTO SELECCIONADO POR EL USUARIO.
+*/
+/* Ejemplo */
+.exampleSelection{
+    text-align: justify;
+    line-height: 24px;
+    letter-spacing: 2px;
+    padding: 10px;
+    background: lightsalmon;
+}
+    /* Selection */
+.exampleSelection::selection{
+    background: #000;
+    color: lightgrey;
+    text-decoration: underline;
+}
