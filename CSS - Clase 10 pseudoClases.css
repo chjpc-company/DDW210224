@@ -1,0 +1,363 @@
+/*
+    PSEUDOCLASES
+    Una pseudoclase CSS es una palabra clave que se añade a los selectores
+    y que especifica un estado especial del elemento seleccionado.
+
+    :pseudoclase -> REPRESENTACIÓN.
+
+    SINTAXIS:
+
+    selector:pseudoclase{
+        propiedad: valorPropiedad;
+    }
+*/
+
+/*
+    :hover -> ACCIÓN AL PASAR EL CURSOR.
+*/
+/* Ejemplo */
+.exampleHoverPadre00{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 1px solid #000;
+}
+.exampleHoverHijo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.exampleHoverHijo00{background: blue;}
+.exampleHoverHijo01{background: red;}
+    /* Hover */
+.exampleHoverPadre00:hover .exampleHoverHijo00{z-index: 1;background: green;}
+
+.exampleHoverPadre01{
+    width: 300px;
+    height: 300px;
+    background: lightcyan;
+    border: 1px solid #000;
+}
+/* Hover */
+.exampleHoverPadre01:hover{background: lightgreen;}
+
+.exampleHoverPadre02{
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.exampleHoverPadre02:hover{font-family: fantasy;color: pink;text-shadow: 0.5px 0.5px #000;}
+
+.exampleHoverPadre03{
+    width: 100px;
+    height: 120px;
+    background: yellow;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.exampleHoverHijo02{
+    font-family: Courier;
+    font-size: 12px;
+    text-align: center;
+    color: blue;
+    display: block;
+    position: absolute;
+    top: calc(50% - 36px);
+    right: -500px;
+}
+/* hover */
+.exampleHoverPadre03:hover .exampleHoverHijo02{
+    right: 0;
+}
+
+/*
+    :active -> LA ETIQUETA EN EL ESTADO DE ACTIVO, REALIZA CAMBIOS.
+*/
+/* Ejemplos */
+.exampleActive00 a{
+    display: block;
+    font-family: cursive;
+    font-size: 14px;
+    color: #000;
+}
+/* Active */
+.exampleActive00 a:active{
+    color: purple;
+    border-bottom: 2px solid #000;
+}
+
+/*
+    :checked-> LA ETIQUETA EN EL ESTADO DE CHECK, REALIZA CAMBIOS.
+*/
+/* Ejemplos */
+.exampleChecked00 label{
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* Checked */
+.exampleChecked00 input:checked{
+    width: 24px;
+    height: 24px;
+}
+
+/*
+    :visited -> TE INFORMA SOBRE LAS PAGINAS VISITADAS.
+*/
+/* Ejemplos */
+.exampleVisited00 a{
+    font-family: fantasy;
+    font-size: 24px;
+    text-decoration: none;
+    color: chocolate;
+}
+/* Visited */
+.exampleVisited00 a:visited{
+    color: red;
+}
+
+/*
+    :disabled -> LA ETIQUETA EN EL ESTADO DE DESACTIVADO, REALIZA CAMBIOS.
+*/
+/* Ejemplos */
+.exampleDisabled00 input:disabled{
+    background: red;
+    color: gray;
+    font-size: 18px;
+}
+
+/*
+    :default -> INDICA UNA OPCIÓN POR DEFECTO.
+*/
+/* Ejemplos */
+.exampleDefault00{
+    display: flex;
+}
+.defaultBox{
+    margin-left: 15px;
+    display: block;
+}
+/* Default */
+.defaultBox input:default{
+    box-shadow: 0 0 2px 3px red;
+}
+
+/*
+    :first-child -> SELECCIONA AL PRIMER HIJO.
+*/
+/* Ejemplo */
+.exampleFirstChildPadre00{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+.firstChildHijo{
+    width: 32%;
+    height: 200px;
+    margin: 10px auto 0 auto;
+    border: 1px dotted #000;
+}
+/* First child */
+.firstChildHijo:first-child{background: red;box-shadow: 1px 1px 8px black;}
+.firstChildHijo:first-child:hover{background: blue;}
+
+.firstChildHijoText{
+    font-family: Arial;
+    font-size: 24px;
+    color: blue;
+    margin: 0px auto;
+}
+/* First child */
+.firstChildHijoText:first-child{color: red;font-weight: bold;font-size: 28px;}
+
+/*
+    :last-child -> SELECCIONA AL PRIMER HIJO.
+*/
+/* Ejemplo */
+.exampleLastChildPadre00{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid purple;
+    box-sizing: border-box;
+}
+.lastChildHijo{
+    width: 32%;
+    height: 200px;
+    margin: 10px auto 0 auto;
+    border: 1px dotted #000;
+}
+/* Last child */
+.lastChildHijo:last-child{background: red;box-shadow: 1px 1px 8px black;}
+.lastChildHijo:last-child:hover{background: blue;}
+
+.lastChildHijoText{
+    font-family: Arial;
+    font-size: 24px;
+    color: blue;
+    margin: 0px auto;
+}
+/* Last child */
+.lastChildHijoText:last-child{color: red;font-weight: bold;font-size: 28px;}
+
+/*
+    :nth-child(0-infinito) -> ESPECIFICA EL HIJO A SELECCIONAR.
+*/
+/* Ejemplos */
+.exampleNTHChildPadre00{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid orangered;
+    box-sizing: border-box;
+}
+.NTHChildHijo{
+    width: 32%;
+    height: 200px;
+    margin: 10px auto 0 auto;
+    border: 1px dotted #000;
+}
+/* NTH child */
+.NTHChildHijo:nth-child(5){
+    background: lightsalmon;
+}
+
+.NTHChildHijoText{
+    font-family: Arial;
+    font-size: 24px;
+    color: blue;
+    margin: 0px auto;
+}
+/* NTH child */
+.NTHChildHijoText:nth-child(2){color: red;font-weight: bold;font-size: 28px;}
+
+/*
+    :focus -> SE ACTIVA AL HACER CLIC.
+*/
+/* Ejemplo */
+.exampleFocus00{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #000;
+    display: flex;
+    box-sizing: border-box;
+}
+.exampleFocus00 input{
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    border-radius: none;
+    border-bottom: 3px dotted red;
+
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 12px;
+    color: red;
+}
+.exampleFocus00 input:first-child{text-transform: capitalize;}
+/* Focus */
+.exampleFocus00 input:focus{
+    display: block;
+    border-bottom: 3px dotted #000;
+    color: #000;
+    background: none;
+    border: none;
+    border-radius: none;
+}
+
+/*
+    :required -> SE ACTIVA CUANDO EL CAMPO ES REQUERIDO.
+*/
+/* Ejemplos */
+.exampleRequired00{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 3px solid #17ad99;
+    display: flex;
+    box-sizing: border-box;
+}
+.exampleRequired00 input{
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    border-radius: none;
+    border-bottom: 3px dotted #000;
+
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 12px;
+    color: #000;
+}
+.exampleRequired00 input:first-child{text-transform: capitalize;}
+/* Required */
+.exampleRequired00 input:required{border: none;background: lightblue;}
+
+/*
+    :root -> SIRVE PARA DECLARAR VARIABLES GLOBALES.
+    OJO: LA PSEUDOCLASE ROOT SIMEPRE DEBE INICIAR EL DOCUMENTO.
+    :root{
+        --error: #D32F2F;
+        --hecho: #317f43;
+        --alerta: #f6c23e;
+    }
+
+    selector{propiedad: var(--hecho);}
+
+*/
+:root{
+    --error: #D32F2F;
+    --hecho: #317f43;
+    --alerta: #f6c23e;
+    --company-1: #2237ad;
+    --p12: 12px;
+    --an100: 100%;
+}
+
+.exampleRoot{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background: lightcoral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.exampleRoot div{
+    padding: 17px 0;
+    margin: 0 auto;
+}
+.exampleRoot div p{
+    font-family: Arial;
+}
+/* Root */
+.exampleRoot div:nth-child(1){background: var(--hecho);color: yellow;}
+.exampleRoot div:nth-child(2){background: var(--error);color: #000;}
+.exampleRoot div:nth-child(3){background: var(--alerta);color: var(--company-1);}
+.exampleRoot div p{
+    display: block;
+    width: var(--an100);
+    font-family: Arial;
+    background: #000;
+    color: white;
+    padding: var(--p12);
+    box-sizing: border-box;
+}
