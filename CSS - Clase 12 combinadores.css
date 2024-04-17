@@ -1,0 +1,71 @@
+/*
+COMBINADORES
+Los últimos selectores que veremos son los llamados selectores de combinación.
+Se llaman así porqué combinan otros selectores de manera que proporciona una relación útil
+entre ellos y la ubicación del contenido en el documento.
+
+1.- Combinador de descendientes -> selectores con espacios entre ellos.
+    Sintaxis:
+    selector selector{propiedad: valorPropiedad;}
+
+2.- Combinador de seleccion -> selectores con comas entre ellos.
+    Sintaxis:
+    selector, selector{propiedad: valorPropiedad;}
+
+3.- Combinador de elementos hijo -> Selecciona solo los hijos directos.
+    Sintaxis:
+    selector > selector{propiedad: valorPropiedad;}
+
+4.- Combinador de hermanos adyacentes -> Selecciona un elemento que se encuentra justo al lado de otro elemento en el mismo nivel de la jerarquía.
+    Sintaxis:
+    selector + selector{propiedad: valorPropiedad;}
+
+5.- Combinador de hermanos generales -> Seleciona a todos los hermanos del mismo nivel de jerarquía.
+    Sintaxis:
+    selector ~ selector{propiedad: valorPropiedad;}
+*/
+/* Ejemplos */
+    /* Combinador Descendiente */
+.combinadorDescend p{
+    font-family: Arial;
+    font-size: 28px;
+    color: blue;
+}
+
+    /* Combinador de Seleccion */
+.combinadorSeleccion00 p,
+.combinadorSeleccion01 p{
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+.combinadorSeleccion01 p{font-size: 18px;}
+
+    /* Combinador de Elementos Hijo */
+.combinadorElementHijos > p{
+    padding: 10px;
+    background: lightcoral;
+    color: darkblue;
+}
+.combinadorElementHijos div > p{
+    margin-left: 30px;
+    color: darkcyan;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+    /* Combinador de Hermanos Adyacentes */
+.combinadorHermAdyac p + span{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+
+    /* Combinador de Hermanos Adyacentes */
+.combinadorHermGene p ~ span{
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
