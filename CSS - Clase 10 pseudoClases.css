@@ -178,7 +178,7 @@
 .firstChildHijoText:first-child{color: red;font-weight: bold;font-size: 28px;}
 
 /*
-    :last-child -> SELECCIONA AL PRIMER HIJO.
+    :last-child -> SELECCIONA AL ULTIMO HIJO.
 */
 /* Ejemplo */
 .exampleLastChildPadre00{
