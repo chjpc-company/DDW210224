@@ -1,0 +1,374 @@
+/*
+TRANSITION
+Permite definir la transición entre dos estados de un elemento.
+
+transition-delay -> Especifica la cantidad de tiempo a esperar entre un cambio pedido hacia una propiedad.
+transition-delay: 0ms;
+transition-delay: 0s;
+
+transition-duration -> Establece el tiempo que debe tardar una animación de transición en completarse.
+transition-duration: 0ms;
+transition-duration: 0s;
+
+Se usa para definir los nombres de las propiedades CSS en las que el efecto de la transición debe aplicarse.
+transition-property -> Se especifica una propiedad.
+transition-property: background;
+transition-property: color;
+transition-property: all;
+
+transition-timing-function -> Describe un efecto o función que tendrá el elemento seleccionado.
+transition-timing-function: ease;
+transition-timing-function: ease-in;
+transition-timing-function: ease-out;
+transition-timing-function: ease-in-out;
+transition-timing-function: linear;
+transition-timing-function: step-start;
+transition-timing-function: step-end;
+
+Sintaxis general:
+transition: propiedad | duración | función | retardo;
+*/
+/* Ejemplo */
+.banner__content{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 1s;
+}
+.banner__content > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+    /* Transition */
+    transition-delay: 1s;
+}
+.banner__content:hover{background: lightcoral;}
+.banner__content:hover > p{
+    color: blueviolet;
+    text-decoration: overline;
+}
+
+
+.about__content{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightcyan;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 1ms;
+    transition-duration: 1s;
+}
+.about__content > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    /* Transition */
+    transition-delay: 1ms;
+    transition-duration: 1s;
+}
+.about__content:hover{background: #000;}
+.about__content:hover > p{
+    color: white;
+    text-decoration: overline;
+}
+
+
+.contact__content{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.contact__content > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease */
+    transition-timing-function: ease;
+}
+.contact__content:hover{background: lightcoral;}
+.contact__content:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content00{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease */
+    transition-timing-function: ease;
+}
+.contact__content00 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease */
+    transition-timing-function: ease;
+}
+.contact__content00:hover{background: lightcoral;}
+.contact__content00:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content01{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease-in */
+    transition-timing-function: ease-in;
+}
+.contact__content01 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease-in */
+    transition-timing-function: ease-in;
+}
+.contact__content01:hover{background: lightcoral;}
+.contact__content01:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content02{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease-out */
+    transition-timing-function: ease-out;
+}
+.contact__content02 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease-out */
+    transition-timing-function: ease-out;
+}
+.contact__content02:hover{background: lightcoral;}
+.contact__content02:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content03{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease-in-out */
+    transition-timing-function: ease-in-out;
+}
+.contact__content03 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: ease-in-out */
+    transition-timing-function: ease-in-out;
+}
+.contact__content03:hover{background: lightcoral;}
+.contact__content03:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content04{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: linear */
+    transition-timing-function: linear;
+}
+.contact__content04 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: linear */
+    transition-timing-function: linear;
+}
+.contact__content04:hover{background: lightcoral;}
+.contact__content04:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content05{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: step-start */
+    transition-timing-function: step-start;
+}
+.contact__content05 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: step-start */
+    transition-timing-function: step-start;
+}
+.contact__content05:hover{background: lightcoral;}
+.contact__content05:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+
+.contact__content06{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: lightgoldenrodyellow;
+    box-sizing: border-box;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: step-end */
+    transition-timing-function: step-end;
+}
+.contact__content06 > p{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    /* Transition */
+    transition-delay: 15ms;
+    transition-duration: 1s;
+    transition-property: all;
+        /* transition-timing-function: step-end */
+    transition-timing-function: step-end;
+}
+.contact__content06:hover{background: lightcoral;}
+.contact__content06:hover > p{
+    color: blue;
+    font-size: 32px;
+}
+
+/* TRANSITION GENERAL */
+.footer__content{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    background: #012a29;
+    box-sizing: border-box;
+}
+.footer__content > p{
+    font-family: Arial;
+    font-size: 40px;
+    color: orangered;
+    transition: all 0.5s ease-in-out 0s;
+}
+.footer__content:hover > p{
+    padding-bottom: 0.5px;
+    text-shadow: 2px 2px 4px #000;
+}
