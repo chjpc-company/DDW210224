@@ -1,0 +1,183 @@
+/*
+TRANSFORM
+Te permite modificar el espacio de coordenadas del modelo de formato visual CSS. Usándola, los elementos
+pueden ser trasladados, rotados, escalados o sesgados de acuerdo a los valores establecidos.
+
+Translate -> Especifica una tanslación 2D dada por el vector, se mide en % y px.
+Translada un elemento a lo largo del eje X.
+transform: translateX(120px);
+Translada un elemento a lo largo del eje Y.
+transform: translateY(120px);
+Translada un elemento a lo largo del eje X/Y.
+transform: translate(120px, 50%);
+
+Scale - > Especifica una operación de escalado 2D descrita.
+Especifica una operación de escalado en el eje X.
+transform: scaleX(2);
+Especifica una operación de escalado en el eje Y.
+transform: scaleY(2);
+Especifica una operación de escalado en el eje X/Y.
+transform: scale(2, 0.5);
+
+Rotate -> Define una operación de rotación 2D de un elemento, específicando la cantidad
+de grados(deg) que este rotará en sentido de las manecillas del reloj.
+Define una rotación de un elemento en el eje X.
+transform: rotateX(0deg);
+transform: rotateX(0turn);
+Define una rotación de un elemento en el eje Y.
+transform: rotateY(0deg);
+transform: rotateY(0turn);
+Define una rotación de un elemento en el eje Z.
+transform: rotateZ(0deg);
+transform: rotateZ(0turn);
+Define una rotación de un elemento en el eje X/Y.
+transform: rotate(0deg);
+transform: rotate(0turn);
+
+Skew -> Sesga el elemento a lo largo del eje X y Y por los ángulos especificados(deg).
+Sesga un elemento a lo largo del eje X por el ángulo dado.
+transform: skewX(30deg);
+Sesga un elemento a lo largo del eje Y por el ángulo dado.
+transform: skewY(20deg);
+Sesga un elemento a lo largo del eje X/Y por el ángulo dado.
+transform: skew(30deg, 20deg);
+
+Uso general de transform.
+transform: scale(0.5) translate(-100%, -100%);
+*/
+/* Ejemplo */
+.transform__translateX{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: all 1s ease-out;
+    /* transform */
+    transform: translateX(0);
+}
+.transform__translateX:hover{
+    transform: translateX(50%);
+}
+
+
+.transform__translateY{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transition: all 1s ease-out;
+    /* transform */
+    transform: translateY(0);
+}
+.transform__translateY:hover{
+    transform: translateY(50%);
+}
+
+
+.transform__scaleX{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    transition: all 1s ease-out;
+    /* transform */
+    transform: scale(1);
+}
+.transform__scaleX:hover{
+    transform: scale(0.5);
+}
+
+
+.transform__scaleY{
+    width: 200px;
+    height: 200px;
+    background: darkgreen;
+    transition: all 1s ease-out;
+    /* transform */
+    transform: scaleY(1);
+}
+.transform__scaleY:hover{
+    transform: scaleY(-1);
+}
+
+
+.transform__rotateX{
+    width: 200px;
+    height: 200px;
+    background: none;
+    transition: all 1s linear;
+    border-top: 2px solid darkcyan;
+    border-left: 2px solid darkkhaki;
+    border-bottom: 2px solid darkmagenta;
+    border-right: 2px solid darkorange;
+    /* transform */
+    transform: rotateX(0turn);
+}
+.transform__rotateX:hover{
+    transform: rotateX(0.5turn);
+}
+
+
+.transform__rotateY{
+    width: 200px;
+    height: 200px;
+    background: none;
+    transition: all 1s linear;
+    border-top: 2px solid darkcyan;
+    border-left: 2px solid darkkhaki;
+    border-bottom: 2px solid darkmagenta;
+    border-right: 2px solid darkorange;
+    /* transform */
+    transform: rotateY(0turn);
+}
+.transform__rotateY:hover{
+    transform: rotateY(0.5turn);
+}
+
+
+.transform__rotateZ{
+    width: 200px;
+    height: 200px;
+    background: none;
+    transition: all 1s linear;
+    border-top: 2px solid darkcyan;
+    border-left: 2px solid darkkhaki;
+    border-bottom: 2px solid darkmagenta;
+    border-right: 2px solid darkorange;
+    /* transform */
+    transform: rotateZ(0deg);
+}
+.transform__rotateZ:hover{
+    transform: rotateZ(-45deg);
+}
+
+
+.transform__skewX{
+    width: 200px;
+    height: 200px;
+    background: none;
+    transition: all 1s linear;
+    border-top: 2px solid darkcyan;
+    border-left: 2px solid darkkhaki;
+    border-bottom: 2px solid darkmagenta;
+    border-right: 2px solid darkorange;
+    /* transform */
+    transform: skewX(0deg);
+}
+.transform__skewX:hover{
+    transform: skewX(-25deg);
+}
+
+
+.transform__skewY{
+    width: 200px;
+    height: 200px;
+    background: none;
+    transition: all 1s linear;
+    border-top: 2px solid darkcyan;
+    border-left: 2px solid darkkhaki;
+    border-bottom: 2px solid darkmagenta;
+    border-right: 2px solid darkorange;
+    /* transform */
+    transform: skewY(0deg);
+}
+.transform__skewY:hover{
+    transform: skewY(-25deg);
+}
